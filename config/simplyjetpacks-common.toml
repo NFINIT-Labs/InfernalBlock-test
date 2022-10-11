@@ -7,7 +7,7 @@
 		#Enable Vanilla Jetpacks Integration.
 		enableIntegrationVanilla = true
 		#Enable Immersive Engineering Jetpacks Integration.
-		enableIntegrationImmersiveEngineering = true
+		enableIntegrationImmersiveEngineering = false
 		#Enable Mekanism Jetpacks Integration.
 		enableIntegrationMekanism = true
 		#Enable EnderIO Jetpacks Integration.

@@ -78,7 +78,7 @@
 	prosperitySpawnMaxY = 24
 	#The maximum Y level that Soulstone veins can spawn.
 	#Range: 0 ~ 128
-	soulstoneSpawnMaxY = 128
+	soulstoneSpawnMaxY = 35
 	#Should Prosperity Ore generate in the world?
 	generateProsperityOre = false
 	#The list of biome IDs that Soulstone veins can spawn in.

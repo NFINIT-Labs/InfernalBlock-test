@@ -1,0 +1,44 @@
+{
+	id: "17D41CEA7ACE3B97"
+	group: ""
+	order_index: 2
+	filename: "economy"
+	title: "Market"
+	icon: {
+		id: "farmingforblockheads:market"
+		Count: 1b
+		tag: { }
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -3.0d
+			y: -1.5d
+			dependencies: ["0BB0C30730E20D34"]
+			id: "678895F5BDF2E171"
+			tasks: [{
+				id: "5190875C6BC174DA"
+				type: "item"
+				item: {
+					id: "farmingforblockheads:market"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			title: "Market"
+			icon: {
+				id: "itemfilters:weak_nbt"
+				Count: 1b
+				tag: { }
+			}
+			x: -4.5d
+			y: -1.5d
+			description: ["To unlock this questline, first you have to unlock Wood"]
+			dependencies: ["198CC01730E8C093"]
+			id: "0BB0C30730E20D34"
+		}
+	]
+}

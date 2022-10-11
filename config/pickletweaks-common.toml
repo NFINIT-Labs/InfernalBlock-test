@@ -58,7 +58,7 @@
 	#Dark Glass enabled?
 	darkGlass = true
 	#Enable Emerald tools and armor?
-	emeraldGear = true
+	emeraldGear = false
 	#Colored Cobblestone enabled?
 	coloredCobblestone = true
 	#Watering Can enabled?

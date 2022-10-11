@@ -44,5 +44,5 @@
 	#Tools blacklisted from excavating
 	"Tool Blacklist" = []
 	#Blocks blacklisted from being excavated
-	"Block Blacklist" = []
+	"Block Blacklist" = ["minecraft:netherrack"]
 

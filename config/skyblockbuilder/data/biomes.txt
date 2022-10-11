@@ -130,5 +130,4 @@ nourished_nether:abyss
 nourished_nether:sulphur_springs
 nourished_nether:ichor_fields
 blueprint:original_source_marker
-ae2:spatial_storage
 quark:glimmering_weald

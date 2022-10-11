@@ -20,6 +20,40 @@ event.remove({output: 'quark:cobblestone_bricks'})
 event.remove({output: 'exnihilosequentia:stone_crook'})
 event.remove({output: 'exnihilosequentia:porcelain_clay'})
 
+event.remove({output: 'cyclic:emerald_helmet'})
+event.remove({output: 'cyclic:emerald_chestplate'})
+event.remove({output: 'cyclic:emerald_leggings'})
+event.remove({output: 'cyclic:emerald_boots'})
+
+event.remove({output: 'cyclic:emerald_axe'})
+event.remove({output: 'cyclic:emerald_hoe'})
+event.remove({output: 'cyclic:emerald_shovel'})
+event.remove({output: 'cyclic:emerald_sword'})
+event.remove({output: 'cyclic:emerald_pickaxe'})
+
+event.remove({output: 'exnihilosequentia:acacia_crucible'})
+event.remove({output: 'exnihilosequentia:birch_crucible'})
+event.remove({output: 'exnihilosequentia:dark_oak_crucible'})
+event.remove({output: 'exnihilosequentia:jungle_crucible'})
+event.remove({output: 'exnihilosequentia:oak_crucible'})
+event.remove({output: 'exnihilosequentia:spruce_crucible'})
+
+event.remove({output: 'exnihilosequentia:end_cake'})
+
+
+
+// market
+event.remove({output: 'farmingforblockheads:market'})
+event.shaped('farmingforblockheads:market', [
+    'NFN',
+    'SMS',
+    'SSS'
+], {
+    S: '#minecraft:logs',
+    N: '#minecraft:planks',
+    F: '#forge:wool',
+    M: 'doom:argent_energy'
+})
 
 
 // Shaped
@@ -44,22 +78,29 @@ event.shaped('stonechest:part_cobblestone', [
 
 })
 
+//argent energy recipe
+event.shaped('doom:argent_energy', [
+    ' N ',
+    'NNN',
+    ' N '
+], {
+    N: 'minecraft:gold_nugget'
 
-
+})
 
 //
 event.remove({output: 'betterfurnacesreforged:raw_ore_processing_upgrade'})
 event.shaped('betterfurnacesreforged:raw_ore_processing_upgrade', [
     'NON',
-    'MSJ',
+    'MSL',
     'NKN'
 ], {
     S: 'minecraft:raw_iron_block',
     N: 'betterfurnacesreforged:netherhot_conductor_block',
     O: 'minecraft:blaze_powder',
-    M: '#forge:dusts/certus_quartz',
-    J: 'ae2:sky_dust',
-    K: '#forge:dusts/fluix'
+    M: '#forge:gems/fluorite',
+    K: '#forge:gems/sulfur',
+    L: '#forge:gems/niter'
 })
 
 //Shears
@@ -114,6 +155,19 @@ event.shaped('assortedtools:copper_shears', [
     S: '#forge:ingots/copper'
 })
 
+//crafting stick
+event.remove({output: 'cyclic:crafting_stick'})
+event.shaped('cyclic:crafting_stick', [
+    'MS ',
+    'NM ',
+    '   '
+], {
+    S: '#forge:workbench',
+    N: '#forge:rods/wooden',
+    M: '#minecraft:planks'
+})
+
+
 
   function fluidItem(fluid, input, result) {
     event.custom({
@@ -128,6 +182,8 @@ event.shaped('assortedtools:copper_shears', [
   fluidItem(`minecraft:lava`,`minecraft:netherrack`,`minecraft:crimson_stem`)
   fluidItem(`minecraft:lava`,'minecraft:soul_sand','biomesoplenty:hellbark_log')
   fluidItem(`minecraft:lava`,'minecraft:dirt','minecraft:oak_log')
+  fluidItem(`minecraft:lava`,'minecraft:gravel','minecraft:warped_stem')
+
 
 
 event.recipes.exnihilosequentia.hammer('minecraft:netherrack')

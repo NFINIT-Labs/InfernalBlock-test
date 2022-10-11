@@ -84,17 +84,17 @@
 
 	[ore_generation.world_generation]
 		#Generate Nickel Ore
-		nickel = true
+		nickel = false
 		#Generate Osmium Ore
-		osmium = true
+		osmium = false
 		#Generate Aluminum Ore
-		aluminum = true
+		aluminum = false
 		#Generate Lead Ore
-		lead = true
+		lead = false
 		#Generate Diamond Ore
 		diamond = false
 		#Generate Tin Ore
-		tin = true
+		tin = false
 		#Generate Coal Ore
 		coal = false
 		#Generate Iron Ore
@@ -104,9 +104,9 @@
 		#Generate Lapis Ore
 		lapis = false
 		#Generate Silver Ore
-		silver = true
+		silver = false
 		#Generate Uranium Ore
-		uranium = true
+		uranium = false
 		#Generate Zinc Ore
 		zinc = false
 		#Generate Emerald Ore

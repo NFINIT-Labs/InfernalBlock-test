@@ -74,7 +74,7 @@
 	#
 	#
 	#Range: 0.0 ~ 1.0
-	minContribution = 0.0
+	minContribution = 0.1
 	#
 	# The default diversity value when you eat a food. There is little reason to ever change this.
 	#

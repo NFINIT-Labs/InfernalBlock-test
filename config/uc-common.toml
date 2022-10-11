@@ -1,0 +1,52 @@
+
+#Settings for ore generation
+[ores]
+	#Default veinsize of iron, gold, copper, lapis & redstone
+	#Range: 0 ~ 50
+	overworldVeinsize = 0
+	#Default maximum amount of generations per chunk
+	#Range: 0 ~ 50
+	overworldChunkAmount = 0
+	#Default veinsize of iron, gold, copper, lapis & redstone
+	#Range: 0 ~ 50
+	deepslateVeinsize = 0
+	#Default maximum amount of generations per chunk in deepslate
+	#Range: 0 ~ 50
+	deepslateChunkAmount = 0
+	#Default veinsize of diamond ore
+	#Range: 0 ~ 50
+	overworldDiamondVeinsize = 0
+	#Default maximum amount of generations per chunk of diamond ore
+	#Range: 0 ~ 50
+	overworldDiamondChunkAmount = 0
+	#Default veinsize of diamond ore in deepslate
+	#Range: 0 ~ 50
+	deepslateDiamondVeinsize = 0
+	#Default maximum amount of generations per chunk of diamond ore in deepslate
+	#Range: 0 ~ 50
+	deepslateDiamondChunkAmount = 0
+	#Default veinsize of all coal ores
+	#Range: 0 ~ 50
+	overworldCoalVeinsize = 0
+	#Default maximum amount of generations per chunk
+	#Range: 0 ~ 50
+	overworldCoalChunkAmount = 0
+	#Default veinsize of all coal ores in deepslate
+	#Range: 0 ~ 50
+	deepslateCoalVeinsize = 0
+	#Default maximum amount of generations per chunk in deepslate
+	#Range: 0 ~ 50
+	deepslateCoalChunkAmount = 0
+	#Default veinsize of nether gold ore
+	#Range: 0 ~ 50
+	netherGoldVeinsize = 0
+	#Default maximum amount of generations per chunk
+	#Range: 0 ~ 50
+	netherGoldChunkAmount = 0
+	#Default veinsize of nether quartz ore
+	#Range: 0 ~ 50
+	netherQuartzVeinsize = 0
+	#Default maximum amount of generations per chunk
+	#Range: 0 ~ 50
+	netherQuartzChunkAmount = 0
+

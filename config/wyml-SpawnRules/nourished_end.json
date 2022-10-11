@@ -1,0 +1,61 @@
+{
+	"mod": "nourished_end",
+	"spawn": {
+		// Array of all categories this mod has spawns for
+		"categories": {
+			"monster": {
+				// Set the limit per mob within this category
+				"spawns": {
+					"caster": {
+						// Do not edit this name
+						"name": "caster",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"ringling": {
+						// Do not edit this name
+						"name": "ringling",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"worshipper": {
+						// Do not edit this name
+						"name": "worshipper",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"flarebug": {
+						// Do not edit this name
+						"name": "flarebug",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"radjelly": {
+						// Do not edit this name
+						"name": "radjelly",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"cerulean_anglerfish": {
+						// Do not edit this name
+						"name": "cerulean_anglerfish",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"giant_isopod": {
+						// Do not edit this name
+						"name": "giant_isopod",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"eidolon": {
+						// Do not edit this name
+						"name": "eidolon",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					}
+				}
+			}
+		}
+	}
+}

@@ -433,7 +433,6 @@ nourished_nether:ghostly_soul_sludge
 nourished_nether:warped_bush
 nourished_nether:basalt_ash
 nourished_nether:basalt_ash_pile
-ae2:quartz_ore
 thermal:niter_ore
 thermal:sulfur_ore
 thermal:tin_ore
