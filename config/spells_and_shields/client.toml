@@ -1,6 +1,0 @@
-#Hide the mana bar if it has not changed for the set amount of time (in ticks, 1 second = 20 ticks). Set to 0 to always have it visible
-#Range: 0 ~ 1200
-manaHideDelay = 0
-#Put the mana bar above the food bar (true) or else put it below (false).
-manaAboveFood = true
-
