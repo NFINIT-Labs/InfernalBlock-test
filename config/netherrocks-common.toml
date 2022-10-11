@@ -1,0 +1,107 @@
+
+[General]
+	#Add Netherrocks items to chest loot?
+	AddModLootToChests = true
+	#Enable Netherrocks aesthetic blocks?
+	EnableAestheticsBlocks = true
+	#Enable Ashstone to double as ghast tear ore, if ashstone is enabled?
+	EnableAshstoneGhastOre = false
+
+[OreGeneration]
+	#Enable argonite ore generation?
+	EnableArgoniteOre = true
+	#Enable ashstone ore generation?
+	EnableAshstoneOre = true
+	#Enable dragonstone ore generation?
+	EnableDragonstoneOre = true
+	#Enable fyrite ore generation?
+	EnableFyriteOre = true
+	#Enable illumenite ore generation?
+	EnableIllumeniteOre = true
+	#Enable malachite ore generation?
+	EnableMalachiteOre = true
+
+	[OreGeneration.Argonite]
+		#Argonite ore vein size
+		#Range: > 1
+		ArgoniteVeinSize = 6
+		#Argonite ore vein count per chunk
+		#Range: > 1
+		ArgoniteVeinCount = 10
+		#Argonite ore minimum height (currently ignored)
+		#Range: 1 ~ 128
+		ArgoniteBottomHeight = 1
+		#Argonite ore maximum height (currently ignored)
+		#Range: 1 ~ 128
+		ArgoniteMaxHeight = 128
+
+	[OreGeneration.Ashstone]
+		#Ashstone ore vein size
+		#Range: > 1
+		AshstoneVeinSize = 5
+		#Ashstone ore vein count per chunk
+		#Range: > 1
+		AshstoneVeinCount = 10
+		#Ashstone ore minimum height (currently ignored)
+		#Range: 1 ~ 127
+		AshstoneBottomHeight = 1
+		#Ashstone ore maximum height (currently ignored)
+		#Range: 1 ~ 128
+		AshstoneMaxHeight = 128
+
+	[OreGeneration.Dragonstone]
+		#Dragonstone ore vein size
+		#Range: > 1
+		DragonstoneVeinSize = 5
+		#Dragonstone ore vein count per chunk
+		#Range: > 1
+		DragonstoneVeinCount = 7
+		#Dragonstone ore minimum height (currently ignored)
+		#Range: 1 ~ 127
+		DragonstoneBottomHeight = 1
+		#Dragonstone ore maximum height (currently ignored)
+		#Range: 1 ~ 128
+		DragonstoneMaxHeight = 128
+
+	[OreGeneration.Fyrite]
+		#Fyrite ore vein size
+		#Range: > 1
+		FyriteVeinSize = 6
+		#Fyrite ore vein count per chunk
+		#Range: > 1
+		FyriteVeinCount = 10
+		#Fyrite ore minimum height (currently ignored)
+		#Range: 1 ~ 127
+		FyriteBottomHeight = 1
+		#Fyrite ore maximum height (currently ignored)
+		#Range: 1 ~ 128
+		FyriteMaxHeight = 128
+
+	[OreGeneration.Illumenite]
+		#Illumenite ore vein size
+		#Range: > 1
+		IllumeniteVeinSize = 10
+		#Illumenite ore vein count per chunk
+		#Range: > 1
+		IllumeniteVeinCount = 5
+		#Illumenite ore minimum height (currently ignored)
+		#Range: 1 ~ 127
+		IllumeniteBottomHeight = 1
+		#Illumenite ore maximum height (currently ignored)
+		#Range: 1 ~ 128
+		IllumeniteMaxHeight = 128
+
+	[OreGeneration.Malachite]
+		#Malachite ore vein size
+		#Range: > 1
+		MalachiteVeinSize = 7
+		#Malachite ore vein count per chunk
+		#Range: > 1
+		MalachiteVeinCount = 10
+		#Malachite ore minimum height (currently ignored)
+		#Range: 1 ~ 127
+		MalachiteBottomHeight = 1
+		#Malachite ore maximum height (currently ignored)
+		#Range: 1 ~ 128
+		MalachiteMaxHeight = 128
+

@@ -1,0 +1,1 @@
+[{"gui":"VOICE_COMMANDS","name":"voice","command":"[open] ((voice settings)|(voice)|(speech settings))","voice_command_type":"de.morrien.nekeys.voice.command.OpenGuiVoiceCommand"}]

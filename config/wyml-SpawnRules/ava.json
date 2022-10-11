@@ -1,0 +1,108 @@
+{
+	"mod": "ava",
+	"spawn": {
+		// Array of all categories this mod has spawns for
+		"categories": {
+			"creature": {
+				// Set the limit per mob within this category
+				"spawns": {
+					"nrf_soldier": {
+						// Do not edit this name
+						"name": "nrf_soldier",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 10
+					},
+					"eu_soldier": {
+						// Do not edit this name
+						"name": "eu_soldier",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 10
+					},
+					"blue_robot": {
+						// Do not edit this name
+						"name": "blue_robot",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 10
+					},
+					"yellow_robot": {
+						// Do not edit this name
+						"name": "yellow_robot",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 10
+					},
+					"dark_blue_robot": {
+						// Do not edit this name
+						"name": "dark_blue_robot",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 10
+					}
+				}
+			},
+			"monster": {
+				// Set the limit per mob within this category
+				"spawns": {
+					"blue_melee_guard": {
+						// Do not edit this name
+						"name": "blue_melee_guard",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"rifle_guard": {
+						// Do not edit this name
+						"name": "rifle_guard",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"grey_prisoner": {
+						// Do not edit this name
+						"name": "grey_prisoner",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"yellow_prisoner": {
+						// Do not edit this name
+						"name": "yellow_prisoner",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"shotgun_prisoner": {
+						// Do not edit this name
+						"name": "shotgun_prisoner",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"grenade_launcher_guard": {
+						// Do not edit this name
+						"name": "grenade_launcher_guard",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"shotgun_guard": {
+						// Do not edit this name
+						"name": "shotgun_guard",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"pistol_guard": {
+						// Do not edit this name
+						"name": "pistol_guard",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"toxic_smoke_guard": {
+						// Do not edit this name
+						"name": "toxic_smoke_guard",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"red_prisoner": {
+						// Do not edit this name
+						"name": "red_prisoner",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					}
+				}
+			}
+		}
+	}
+}

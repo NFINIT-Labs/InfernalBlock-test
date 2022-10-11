@@ -1,0 +1,289 @@
+{
+	"mod": "doom",
+	"spawn": {
+		// Array of all categories this mod has spawns for
+		"categories": {
+			"monster": {
+				// Set the limit per mob within this category
+				"spawns": {
+					"spidermastermind": {
+						// Do not edit this name
+						"name": "spidermastermind",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"hellknight": {
+						// Do not edit this name
+						"name": "hellknight",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"painelemental": {
+						// Do not edit this name
+						"name": "painelemental",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"spectre": {
+						// Do not edit this name
+						"name": "spectre",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"gore_nest": {
+						// Do not edit this name
+						"name": "gore_nest",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"possessed_scientist": {
+						// Do not edit this name
+						"name": "possessed_scientist",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"unwilling": {
+						// Do not edit this name
+						"name": "unwilling",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"motherdemon": {
+						// Do not edit this name
+						"name": "motherdemon",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"zombieman": {
+						// Do not edit this name
+						"name": "zombieman",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"imp": {
+						// Do not edit this name
+						"name": "imp",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"cacodemon": {
+						// Do not edit this name
+						"name": "cacodemon",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"marauder": {
+						// Do not edit this name
+						"name": "marauder",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"arachnotroneternal": {
+						// Do not edit this name
+						"name": "arachnotroneternal",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"mancubus": {
+						// Do not edit this name
+						"name": "mancubus",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"gargoyle": {
+						// Do not edit this name
+						"name": "gargoyle",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"baron2016": {
+						// Do not edit this name
+						"name": "baron2016",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"doom_hunter": {
+						// Do not edit this name
+						"name": "doom_hunter",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"possessed_soldier": {
+						// Do not edit this name
+						"name": "possessed_soldier",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"possessed_worker": {
+						// Do not edit this name
+						"name": "possessed_worker",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"firebronebaron": {
+						// Do not edit this name
+						"name": "firebronebaron",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"blood_maykr": {
+						// Do not edit this name
+						"name": "blood_maykr",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"arch_maykr": {
+						// Do not edit this name
+						"name": "arch_maykr",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"pinky": {
+						// Do not edit this name
+						"name": "pinky",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"summoner": {
+						// Do not edit this name
+						"name": "summoner",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"cueball": {
+						// Do not edit this name
+						"name": "cueball",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"baron": {
+						// Do not edit this name
+						"name": "baron",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"revenant": {
+						// Do not edit this name
+						"name": "revenant",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"shotgunguy": {
+						// Do not edit this name
+						"name": "shotgunguy",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"revenant2016": {
+						// Do not edit this name
+						"name": "revenant2016",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"dreadknight": {
+						// Do not edit this name
+						"name": "dreadknight",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"maykr_drone": {
+						// Do not edit this name
+						"name": "maykr_drone",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"turret": {
+						// Do not edit this name
+						"name": "turret",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"gladiator": {
+						// Do not edit this name
+						"name": "gladiator",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"hellknight2016": {
+						// Do not edit this name
+						"name": "hellknight2016",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"mechazombie": {
+						// Do not edit this name
+						"name": "mechazombie",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"tentacle": {
+						// Do not edit this name
+						"name": "tentacle",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"cyberdemon": {
+						// Do not edit this name
+						"name": "cyberdemon",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"iconofsin": {
+						// Do not edit this name
+						"name": "iconofsin",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"stone_imp": {
+						// Do not edit this name
+						"name": "stone_imp",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"chaingunner": {
+						// Do not edit this name
+						"name": "chaingunner",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"prowler": {
+						// Do not edit this name
+						"name": "prowler",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"archvile": {
+						// Do not edit this name
+						"name": "archvile",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"arachnotron": {
+						// Do not edit this name
+						"name": "arachnotron",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"spidermastermind2016": {
+						// Do not edit this name
+						"name": "spidermastermind2016",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"whiplash": {
+						// Do not edit this name
+						"name": "whiplash",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"armoredbaron": {
+						// Do not edit this name
+						"name": "armoredbaron",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					}
+				}
+			}
+		}
+	}
+}

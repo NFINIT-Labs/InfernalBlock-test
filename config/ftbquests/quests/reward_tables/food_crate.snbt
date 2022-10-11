@@ -1,0 +1,313 @@
+{
+	id: "7EF80AA338CEE870"
+	order_index: 3
+	title: "Food Crate"
+	loot_size: 1
+	hide_tooltip: true
+	use_title: true
+	rewards: [
+		{
+			item: {
+				id: "farmersdelight:nether_salad"
+				Count: 1b
+				tag: { }
+			}
+			count: 3
+		}
+		{
+			item: {
+				id: "farmersdelight:mixed_salad"
+				Count: 1b
+				tag: { }
+			}
+			count: 3
+		}
+		{
+			item: {
+				id: "farmersdelight:barbecue_stick"
+				Count: 1b
+				tag: { }
+			}
+			count: 3
+		}
+		{
+			item: {
+				id: "farmersdelight:chicken_sandwich"
+				Count: 1b
+				tag: { }
+			}
+			count: 3
+		}
+		{
+			item: {
+				id: "nethersdelight:warped_moldy_meat"
+				Count: 1b
+				tag: { }
+			}
+			count: 3
+		}
+		{
+			item: {
+				id: "nethersdelight:warped_moldy_meat"
+				Count: 1b
+				tag: { }
+			}
+			count: 3
+		}
+		{
+			item: {
+				id: "nethersdelight:grilled_strider"
+				Count: 1b
+				tag: { }
+			}
+			count: 3
+		}
+		{
+			item: {
+				id: "nethersdelight:strider_moss_stew"
+				Count: 1b
+				tag: { }
+			}
+			count: 3
+		}
+		{
+			item: {
+				id: "nethersdelight:plate_of_stuffed_hoglin_snout"
+				Count: 1b
+				tag: { }
+			}
+			count: 3
+		}
+		{
+			item: {
+				id: "nethersdelight:plate_of_stuffed_hoglin_ham"
+				Count: 1b
+				tag: { }
+			}
+			count: 3
+		}
+		{
+			item: {
+				id: "thermal:potion_cake"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "thermal:spice_cake"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "thermal:chocolate_cake"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "thermal:carrot_cake"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "thermal:stuffed_pumpkin"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "thermal:cheese_wheel"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "thermal:cheese_wheel"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "cyclic:chorus_spectral"
+				Count: 1b
+				tag: { }
+			}
+			count: 3
+		}
+		{
+			item: {
+				id: "cyclic:chorus_flight"
+				Count: 1b
+				tag: { }
+			}
+			count: 3
+		}
+		{
+			item: {
+				id: "cyclic:apple_chocolate"
+				Count: 1b
+				tag: { }
+			}
+			count: 3
+		}
+		{
+			item: {
+				id: "pamhc2foodcore:hotchocolateitem"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "pamhc2foodcore:caramelappleitem"
+				Count: 1b
+				tag: { }
+			}
+			count: 3
+		}
+		{
+			item: {
+				id: "cyclic:apple_chorus"
+				Count: 1b
+				tag: { }
+			}
+			count: 3
+		}
+		{
+			item: {
+				id: "cyclic:apple_bone"
+				Count: 1b
+				tag: { }
+			}
+			count: 2
+		}
+		{
+			item: {
+				id: "pamhc2foodcore:p8juiceitem"
+				Count: 1b
+				tag: { }
+			}
+			count: 3
+		}
+		{
+			item: {
+				id: "cyclic:apple_lapis"
+				Count: 1b
+				tag: { }
+			}
+			count: 2
+		}
+		{
+			item: {
+				id: "cyclic:apple_iron"
+				Count: 1b
+				tag: { }
+			}
+			count: 2
+		}
+		{
+			item: {
+				id: "cyclic:apple_diamond"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "cyclic:apple_emerald"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "farmersdelight:steak_and_potatoes"
+				Count: 1b
+				tag: { }
+			}
+			count: 3
+		}
+		{
+			item: {
+				id: "farmersdelight:noodle_soup"
+				Count: 1b
+				tag: { }
+			}
+			count: 3
+		}
+		{
+			item: {
+				id: "farmersdelight:melon_popsicle"
+				Count: 1b
+				tag: { }
+			}
+			count: 3
+		}
+		{
+			item: {
+				id: "pamhc2foodcore:friedchickenitem"
+				Count: 1b
+				tag: { }
+			}
+			count: 3
+		}
+		{
+			item: {
+				id: "pamhc2foodcore:fruitpunchitem"
+				Count: 1b
+				tag: { }
+			}
+			count: 3
+		}
+		{
+			item: {
+				id: "nethersdelight:ground_strider"
+				Count: 1b
+				tag: { }
+			}
+			count: 3
+		}
+		{
+			item: {
+				id: "cyclic:apple_lofty_stature"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "cyclic:apple_honey"
+				Count: 1b
+				tag: { }
+			}
+			count: 3
+		}
+		{
+			item: {
+				id: "nethersdelight:plate_of_stuffed_hoglin_roast"
+				Count: 1b
+				tag: { }
+			}
+			count: 3
+		}
+	]
+	loot_crate: {
+		drops: {
+			boss: 0
+			passive: 0
+			monster: 0
+		}
+		color: 16777215
+		item_name: "Food Crate"
+		string_id: "food_crate"
+	}
+}

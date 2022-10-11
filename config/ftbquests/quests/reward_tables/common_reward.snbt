@@ -1,0 +1,35 @@
+{
+	id: "3AFA6F13BE31D356"
+	order_index: 4
+	title: "Common Reward"
+	loot_size: 1
+	rewards: [
+		{
+			item: {
+				id: "ftbquests:lootcrate"
+				Count: 1b
+				tag: {
+					type: "common_crate"
+				}
+			}
+		}
+		{
+			item: {
+				id: "ftbquests:lootcrate"
+				Count: 1b
+				tag: {
+					type: "food_crate"
+				}
+			}
+		}
+		{
+			item: {
+				id: "ftbquests:lootcrate"
+				Count: 1b
+				tag: {
+					type: "anti_fire_crate"
+				}
+			}
+		}
+	]
+}

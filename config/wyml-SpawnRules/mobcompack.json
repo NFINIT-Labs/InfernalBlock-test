@@ -1,0 +1,25 @@
+{
+	"mod": "mobcompack",
+	"spawn": {
+		// Array of all categories this mod has spawns for
+		"categories": {
+			"monster": {
+				// Set the limit per mob within this category
+				"spawns": {
+					"jawbreaker": {
+						// Do not edit this name
+						"name": "jawbreaker",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"crystallineslime": {
+						// Do not edit this name
+						"name": "crystallineslime",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					}
+				}
+			}
+		}
+	}
+}
