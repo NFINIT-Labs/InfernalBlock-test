@@ -17,6 +17,7 @@
 		{
 			x: -1.0d
 			y: 1.0d
+			description: ["Gates are crafteable portals from where you can summon different kind of mobs for their resources."]
 			dependencies: ["406042A19517DA9D"]
 			id: "4F26A0EF66280ED8"
 			tasks: [{
@@ -29,6 +30,11 @@
 						gateway: "gateways:zombie_gate_small"
 					}
 				}
+			}]
+			rewards: [{
+				id: "381943F277DF0872"
+				type: "choice"
+				table_id: 6411501140632264875L
 			}]
 		}
 		{
@@ -47,6 +53,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "214E0EAF423C6A5D"
+				type: "choice"
+				table_id: 6411501140632264875L
+			}]
 		}
 		{
 			x: -3.0d
@@ -63,6 +74,11 @@
 						gateway: "gateways:blaze_gate_small"
 					}
 				}
+			}]
+			rewards: [{
+				id: "1142C868E4A1A180"
+				type: "choice"
+				table_id: 6411501140632264875L
 			}]
 		}
 		{
@@ -81,6 +97,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "397D8E9E6D2270C9"
+				type: "choice"
+				table_id: 6411501140632264875L
+			}]
 		}
 		{
 			x: -3.5d
@@ -97,6 +118,11 @@
 						gateway: "gateways:ghast_gate_small"
 					}
 				}
+			}]
+			rewards: [{
+				id: "2EA4BDDBCB937ACC"
+				type: "choice"
+				table_id: 6411501140632264875L
 			}]
 		}
 		{
@@ -115,6 +141,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "23530510AD431244"
+				type: "choice"
+				table_id: 6411501140632264875L
+			}]
 		}
 		{
 			x: 1.5d
@@ -131,6 +162,11 @@
 						gateway: "gateways:shulker_gate_small"
 					}
 				}
+			}]
+			rewards: [{
+				id: "790C002F55B5FDF3"
+				type: "choice"
+				table_id: 6411501140632264875L
 			}]
 		}
 		{
@@ -149,6 +185,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "175B36DA9EBA60EA"
+				type: "choice"
+				table_id: 6411501140632264875L
+			}]
 		}
 		{
 			x: 1.0d
@@ -165,6 +206,11 @@
 						gateway: "gateways:slime_gate_small"
 					}
 				}
+			}]
+			rewards: [{
+				id: "7E9F7B9914C0863C"
+				type: "choice"
+				table_id: 6411501140632264875L
 			}]
 		}
 		{
@@ -183,6 +229,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "48790E03C2805742"
+				type: "choice"
+				table_id: 6411501140632264875L
+			}]
 		}
 		{
 			x: 0.0d
@@ -200,6 +251,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "712FD8649CFEC983"
+				type: "choice"
+				table_id: 6411501140632264875L
+			}]
 		}
 		{
 			title: "Gates"
@@ -213,6 +269,11 @@
 			description: ["To unlock this questline, first you have to unlock Crushed End Stone [Iron Mesh]"]
 			dependencies: ["66827CD61A0903F1"]
 			id: "406042A19517DA9D"
+			tasks: [{
+				id: "54C4849878667F42"
+				type: "checkmark"
+				title: "Unlock Questline"
+			}]
 		}
 	]
 }

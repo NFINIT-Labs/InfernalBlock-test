@@ -25,20 +25,80 @@
 			description: [""]
 			dependencies: ["198CC01730E8C093"]
 			id: "1714129D6C04F031"
+			tasks: [{
+				id: "0242DDD288FAFEA3"
+				type: "checkmark"
+				title: "Unlock Questline"
+			}]
 		}
 		{
 			x: -2.0d
 			y: 2.5d
+			description: [
+				"The Sieve allows you to obtain ores and other resources."
+				""
+				"Notes:"
+				"Sieves need a mesh to work."
+			]
 			dependencies: ["1714129D6C04F031"]
 			id: "7FFBCFCBB908FFF9"
 			tasks: [{
-				id: "7BCF802D5ADA136F"
+				id: "4D03897A29CC1BCE"
 				type: "item"
+				title: "Sieve"
 				item: {
-					id: "exnihilosequentia:acacia_sieve"
+					id: "itemfilters:or"
 					Count: 1b
-					tag: { }
+					tag: {
+						items: [
+							{
+								id: "exnihilosequentia:acacia_sieve"
+								Count: 1b
+								tag: { }
+							}
+							{
+								id: "exnihilosequentia:birch_sieve"
+								Count: 1b
+								tag: { }
+							}
+							{
+								id: "exnihilosequentia:dark_oak_sieve"
+								Count: 1b
+								tag: { }
+							}
+							{
+								id: "exnihilosequentia:jungle_sieve"
+								Count: 1b
+								tag: { }
+							}
+							{
+								id: "exnihilosequentia:oak_sieve"
+								Count: 1b
+								tag: { }
+							}
+							{
+								id: "exnihilosequentia:spruce_sieve"
+								Count: 1b
+								tag: { }
+							}
+							{
+								id: "exnihilosequentia:crimson_sieve"
+								Count: 1b
+								tag: { }
+							}
+							{
+								id: "exnihilosequentia:warped_sieve"
+								Count: 1b
+								tag: { }
+							}
+						]
+					}
 				}
+			}]
+			rewards: [{
+				id: "73A619D703617F93"
+				type: "choice"
+				table_id: 3664273347422943692L
 			}]
 		}
 		{
@@ -55,11 +115,19 @@
 					tag: { }
 				}
 			}]
+			rewards: [{
+				id: "1648E3EF174DDC9A"
+				type: "choice"
+				table_id: 3664273347422943692L
+			}]
 		}
 		{
 			x: -0.5d
 			y: 2.5d
-			description: ["Little tip: Golden carrots speed them up"]
+			description: [
+				"Little tip: Golden carrots speed them up"
+				"The Auto Sieve is an automatic sieve that uses energy."
+			]
 			dependencies: ["7FFBCFCBB908FFF9"]
 			id: "54F31C0D649395C2"
 			tasks: [{
@@ -70,6 +138,11 @@
 					Count: 1b
 					tag: { }
 				}
+			}]
+			rewards: [{
+				id: "598FB8BA7865BAD7"
+				type: "choice"
+				table_id: 6411501140632264875L
 			}]
 		}
 		{
@@ -85,6 +158,11 @@
 					Count: 1b
 					tag: { }
 				}
+			}]
+			rewards: [{
+				id: "1A8B47272B8D164F"
+				type: "choice"
+				table_id: 6411501140632264875L
 			}]
 		}
 		{
@@ -122,6 +200,11 @@
 					}
 				}
 			]
+			rewards: [{
+				id: "0D05FC83BF8C709D"
+				type: "choice"
+				table_id: 3664273347422943692L
+			}]
 		}
 		{
 			x: -2.0d
@@ -137,6 +220,11 @@
 					tag: { }
 				}
 			}]
+			rewards: [{
+				id: "0929E43BE46654C6"
+				type: "choice"
+				table_id: 6411501140632264875L
+			}]
 		}
 		{
 			title: "Dust [Iron]"
@@ -144,18 +232,19 @@
 			y: 7.0d
 			dependencies: ["7F217B4F80FAE9DE"]
 			id: "5EEBD32568252BC1"
-			tasks: [{
-				id: "30CD0A3B1B1DA4CA"
-				type: "item"
-				item: {
-					id: "exnihilosequentia:dust"
-					Count: 1b
-					tag: { }
-				}
-			}]
-			rewards: [
+			tasks: [
 				{
-					id: "411E2E5D3F745A91"
+					id: "30CD0A3B1B1DA4CA"
+					type: "item"
+					title: "Dust in an Iron Mesh"
+					item: {
+						id: "exnihilosequentia:dust"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "0BED109AF063DD24"
 					type: "item"
 					item: {
 						id: "minecraft:redstone"
@@ -164,7 +253,7 @@
 					}
 				}
 				{
-					id: "215196D85810869A"
+					id: "3FEB2DA3EAD2189A"
 					type: "item"
 					item: {
 						id: "minecraft:glowstone_dust"
@@ -173,6 +262,11 @@
 					}
 				}
 			]
+			rewards: [{
+				id: "6501EAF428D8D34B"
+				type: "choice"
+				table_id: 3664273347422943692L
+			}]
 		}
 		{
 			x: -2.0d
@@ -187,6 +281,11 @@
 					Count: 1b
 					tag: { }
 				}
+			}]
+			rewards: [{
+				id: "5B5FD81C1623EFD1"
+				type: "choice"
+				table_id: 6411501140632264875L
 			}]
 		}
 		{
@@ -233,6 +332,11 @@
 					}
 				}
 			]
+			rewards: [{
+				id: "445498BACAA4F676"
+				type: "choice"
+				table_id: 3664273347422943692L
+			}]
 		}
 		{
 			x: -5.0d
@@ -260,6 +364,11 @@
 					}
 				}
 			]
+			rewards: [{
+				id: "47F0D9E7BC45F454"
+				type: "choice"
+				table_id: 3664273347422943692L
+			}]
 		}
 		{
 			x: -3.5d
@@ -270,6 +379,7 @@
 				{
 					id: "389DBFAD3DB9607D"
 					type: "item"
+					title: "Gravel in a Flint Mesh"
 					item: {
 						id: "minecraft:gravel"
 						Count: 1b
@@ -285,7 +395,93 @@
 						tag: { }
 					}
 				}
+				{
+					id: "548E2D0276EBBACF"
+					type: "item"
+					item: {
+						id: "exnihilosequentia:copper_pieces"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "1DFF1D7C00BD71F5"
+					type: "item"
+					item: {
+						id: "exnihilosequentia:tin_pieces"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "300775E4F09F6B6F"
+					type: "item"
+					item: {
+						id: "exnihilosequentia:aluminum_pieces"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "53F914FEB6DD85D1"
+					type: "item"
+					item: {
+						id: "exnihilosequentia:lead_pieces"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "7C1C5071E8E9A622"
+					type: "item"
+					item: {
+						id: "exnihilosequentia:gold_pieces"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "1F049E90ADA96B40"
+					type: "item"
+					item: {
+						id: "exnihilosequentia:nickel_pieces"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "71ECFD9E366F84F6"
+					type: "item"
+					item: {
+						id: "exnihilosequentia:zinc_pieces"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "78A20AF9777169AD"
+					type: "item"
+					item: {
+						id: "exnihilosequentia:uranium_pieces"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "201AE58DC8D97C7B"
+					type: "item"
+					item: {
+						id: "exnihilosequentia:platinum_pieces"
+						Count: 1b
+						tag: { }
+					}
+				}
 			]
+			rewards: [{
+				id: "0600A597C36CCB81"
+				type: "choice"
+				table_id: 3664273347422943692L
+			}]
 		}
 		{
 			title: "Sand [Iron Mesh]"
@@ -297,6 +493,7 @@
 				{
 					id: "0B19B885EE9C6EB0"
 					type: "item"
+					title: "Sand in an Iron Mesh"
 					item: {
 						id: "minecraft:sand"
 						Count: 1b
@@ -313,6 +510,11 @@
 					}
 				}
 			]
+			rewards: [{
+				id: "6EE5EB1EA348D9DD"
+				type: "choice"
+				table_id: 3664273347422943692L
+			}]
 		}
 		{
 			title: "Sand [String Mesh]"
@@ -341,6 +543,11 @@
 					}
 				}
 			]
+			rewards: [{
+				id: "1EB087537D971C2E"
+				type: "choice"
+				table_id: 3664273347422943692L
+			}]
 		}
 		{
 			title: "Sand [Flint Mesh]"
@@ -352,6 +559,7 @@
 				{
 					id: "63091D1C44CA87DE"
 					type: "item"
+					title: "Sand in a Flint Mesh"
 					item: {
 						id: "minecraft:sand"
 						Count: 1b
@@ -368,6 +576,11 @@
 					}
 				}
 			]
+			rewards: [{
+				id: "4782DA39EAD97022"
+				type: "choice"
+				table_id: 3664273347422943692L
+			}]
 		}
 		{
 			title: "Gravel [Iron Mesh]"
@@ -379,6 +592,7 @@
 				{
 					id: "5AAD3B3524BD8EBD"
 					type: "item"
+					title: "Gravel in an Iron Mesh"
 					item: {
 						id: "minecraft:gravel"
 						Count: 1b
@@ -394,7 +608,39 @@
 						tag: { }
 					}
 				}
+				{
+					id: "64316FF37C4991BC"
+					type: "item"
+					item: {
+						id: "minecraft:diamond"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "36110E8E54B4D0EF"
+					type: "item"
+					item: {
+						id: "exnihilomekanism:osmium_pieces"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "1A4ABCC16A4B0A35"
+					type: "item"
+					item: {
+						id: "minecraft:emerald"
+						Count: 1b
+						tag: { }
+					}
+				}
 			]
+			rewards: [{
+				id: "3EEAA059E72921F9"
+				type: "choice"
+				table_id: 6411501140632264875L
+			}]
 		}
 		{
 			title: "Gravel [String Mesh]"
@@ -423,6 +669,11 @@
 					}
 				}
 			]
+			rewards: [{
+				id: "7F79A186B039B01D"
+				type: "choice"
+				table_id: 3664273347422943692L
+			}]
 		}
 		{
 			x: -3.5d
@@ -437,6 +688,11 @@
 					Count: 1b
 					tag: { }
 				}
+			}]
+			rewards: [{
+				id: "217F45F1D7C4560D"
+				type: "choice"
+				table_id: 6411501140632264875L
 			}]
 		}
 		{
@@ -465,6 +721,11 @@
 					}
 				}
 			]
+			rewards: [{
+				id: "03E431455BECAF8D"
+				type: "choice"
+				table_id: 3664273347422943692L
+			}]
 		}
 		{
 			x: 1.0d
@@ -519,6 +780,11 @@
 					}
 				}
 			]
+			rewards: [{
+				id: "65ADD7D2AF477773"
+				type: "choice"
+				table_id: 3664273347422943692L
+			}]
 		}
 		{
 			x: -0.5d
@@ -546,6 +812,11 @@
 					}
 				}
 			]
+			rewards: [{
+				id: "259CE54392590B9E"
+				type: "choice"
+				table_id: 3664273347422943692L
+			}]
 		}
 		{
 			title: "Crushed End Stone [Iron Mesh]"
@@ -574,11 +845,17 @@
 					}
 				}
 			]
+			rewards: [{
+				id: "3F10D01334116675"
+				type: "choice"
+				table_id: 6411501140632264875L
+			}]
 		}
 		{
-			x: -2.0d
+			x: -3.0d
 			y: 11.5d
 			dependencies: ["4FE43F4A6F69AF64"]
+			optional: true
 			id: "3ECE7D633006214F"
 			tasks: [
 				{
@@ -601,6 +878,43 @@
 					}
 				}
 			]
+			rewards: [{
+				id: "13F7E271E0DEA86C"
+				type: "choice"
+				table_id: 6411501140632264875L
+			}]
+		}
+		{
+			x: -1.0d
+			y: 11.5d
+			dependencies: ["4FE43F4A6F69AF64"]
+			id: "3FD4D8E05726EA26"
+			tasks: [
+				{
+					id: "2A69401DCD42A8D3"
+					type: "item"
+					title: "Netherrack in a Diamond Mesh"
+					item: {
+						id: "minecraft:netherrack"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "5ED8F4E47010C083"
+					type: "item"
+					item: {
+						id: "minecraft:netherite_scrap"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
+			rewards: [{
+				id: "546779BEC674AC8B"
+				type: "choice"
+				table_id: 6411501140632264875L
+			}]
 		}
 	]
 }

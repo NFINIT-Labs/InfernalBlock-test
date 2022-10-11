@@ -18,13 +18,6 @@ minecraft:nether_fossil
 minecraft:bastion_remnant
 infernalexp:simple_nether_structure
 infernalexp:strider_altar
-ava:blue_robot_container
-ava:yellow_robot_container
-ava:dark_blue_robot_container
-ava:outpost_desert
-ava:outpost_snow
-ava:outpost_forest
-ava:outpost_ocean
 bygonenether:fortress
 bygonenether:catacomb
 bygonenether:citadel

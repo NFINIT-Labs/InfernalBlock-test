@@ -42,6 +42,39 @@ event.remove({output: 'exnihilosequentia:end_cake'})
 
 
 
+
+
+// Shaped
+
+event.shaped(Item.of('ftbquests:lootcrate', '{type:"common_crate"}'), [
+    'SS ',
+    'SS ',
+    '   '
+], {
+    S: 'doom:argent_energy'
+})
+
+// Shaped
+
+event.shaped(Item.of('ftbquests:lootcrate', '{type:"rare"}'), [
+    'SS ',
+    'SS ',
+    '   '
+], {
+    S: Item.of('ftbquests:lootcrate', '{type:"common_crate"}')
+})
+
+// Shaped
+
+event.shaped(Item.of('ftbquests:lootcrate', '{type:"legendary"}'), [
+    'SS ',
+    'SS ',
+    '   '
+], {
+    S: Item.of('ftbquests:lootcrate', '{type:"rare"}')
+})
+
+
 // market
 event.remove({output: 'farmingforblockheads:market'})
 event.shaped('farmingforblockheads:market', [

@@ -27,6 +27,11 @@
 					tag: { }
 				}
 			}]
+			rewards: [{
+				id: "56F7B7236BA34D8B"
+				type: "choice"
+				table_id: 6411501140632264875L
+			}]
 		}
 		{
 			x: 1.5d
@@ -41,6 +46,11 @@
 					Count: 1b
 					tag: { }
 				}
+			}]
+			rewards: [{
+				id: "34D3524433AB6B8A"
+				type: "choice"
+				table_id: 3664273347422943692L
 			}]
 		}
 		{
@@ -58,6 +68,11 @@
 					tag: { }
 				}
 			}]
+			rewards: [{
+				id: "0791815738DA0D98"
+				type: "choice"
+				table_id: 3664273347422943692L
+			}]
 		}
 		{
 			title: "Machinery"
@@ -71,6 +86,11 @@
 			subtitle: "To unlock this questline, first you have to unlock Nether Ores"
 			dependencies: ["06E64A7D4AF4FE60"]
 			id: "78F1A86E98C07FCD"
+			tasks: [{
+				id: "6A8643CD68144A01"
+				type: "checkmark"
+				title: "Unlock Questline"
+			}]
 		}
 		{
 			x: 1.5d
@@ -86,6 +106,11 @@
 					tag: { }
 				}
 			}]
+			rewards: [{
+				id: "62296B24CDFAA3A1"
+				type: "choice"
+				table_id: 6411501140632264875L
+			}]
 		}
 		{
 			x: 3.0d
@@ -100,6 +125,11 @@
 					Count: 1b
 					tag: { }
 				}
+			}]
+			rewards: [{
+				id: "75B36208AA67F4AB"
+				type: "choice"
+				table_id: 6411501140632264875L
 			}]
 		}
 	]

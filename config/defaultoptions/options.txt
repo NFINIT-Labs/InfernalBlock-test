@@ -31,7 +31,7 @@ guiScale:3
 particles:0
 maxFps:120
 difficulty:2
-graphicsMode:0
+graphicsMode:1
 ao:2
 prioritizeChunkUpdates:0
 biomeBlendRadius:2
@@ -40,7 +40,7 @@ resourcePacks:["vanilla","mod_resources","quark:emote_resources"]
 incompatibleResourcePacks:["quark:emote_resources"]
 lastServer:
 lang:en_us
-soundDevice:
+soundDevice:OpenAL Soft on Speakers (Realtek(R) Audio)
 chatVisibility:0
 chatOpacity:1.0
 chatLineSpacing:0.0
@@ -74,16 +74,16 @@ hideBundleTutorial:false
 syncChunkWrites:true
 showAutosaveIndicator:true
 allowServerListing:true
-soundCategory_master:0.7803532
-soundCategory_music:0.6971831
-soundCategory_record:0.48122066
-soundCategory_weather:0.37089202
-soundCategory_block:0.4483568
-soundCategory_hostile:0.5516432
-soundCategory_neutral:0.3802817
-soundCategory_player:0.62441313
-soundCategory_ambient:0.5422535
-soundCategory_voice:0.45774648
+soundCategory_master:0.87086093
+soundCategory_music:0.6197183
+soundCategory_record:0.38732395
+soundCategory_weather:0.19248827
+soundCategory_block:0.36384976
+soundCategory_hostile:0.36150235
+soundCategory_neutral:0.28169015
+soundCategory_player:0.53521127
+soundCategory_ambient:0.38497654
+soundCategory_voice:0.33568075
 modelPart_cape:true
 modelPart_jacket:true
 modelPart_left_sleeve:true

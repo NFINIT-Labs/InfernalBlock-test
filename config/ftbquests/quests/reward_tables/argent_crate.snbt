@@ -3,20 +3,48 @@
 	order_index: 6
 	title: "Argent Crate"
 	loot_size: 1
-	rewards: [{
-		item: {
-			id: "doom:argent_energy"
-			Count: 1b
-			tag: { }
+	rewards: [
+		{
+			item: {
+				id: "doom:argent_energy"
+				Count: 1b
+				tag: { }
+			}
+			weight: 5
 		}
-	}]
+		{
+			item: {
+				id: "doom:argent_energy"
+				Count: 1b
+				tag: { }
+			}
+			random_bonus: 3
+			weight: 3
+		}
+		{
+			item: {
+				id: "doom:argent_energy"
+				Count: 1b
+				tag: { }
+			}
+			random_bonus: 5
+		}
+		{
+			item: {
+				id: "doom:argent_energy"
+				Count: 1b
+				tag: { }
+			}
+			weight: 7
+		}
+	]
 	loot_crate: {
 		drops: {
 			boss: 0
 			passive: 0
 			monster: 0
 		}
-		color: 16777215
+		color: 16733986
 		item_name: "Argent Crate"
 		string_id: "argent_crate"
 	}

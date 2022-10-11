@@ -15,6 +15,7 @@
 		{
 			x: -3.0d
 			y: -1.5d
+			description: ["The Market is a block that allows you to buy useful items."]
 			dependencies: ["0BB0C30730E20D34"]
 			id: "678895F5BDF2E171"
 			tasks: [{
@@ -25,6 +26,11 @@
 					Count: 1b
 					tag: { }
 				}
+			}]
+			rewards: [{
+				id: "2B828CB1826A7431"
+				type: "choice"
+				table_id: 3664273347422943692L
 			}]
 		}
 		{
@@ -39,6 +45,11 @@
 			description: ["To unlock this questline, first you have to unlock Wood"]
 			dependencies: ["198CC01730E8C093"]
 			id: "0BB0C30730E20D34"
+			tasks: [{
+				id: "24F85B378F37E07B"
+				type: "checkmark"
+				title: "Unlock Questline"
+			}]
 		}
 	]
 }

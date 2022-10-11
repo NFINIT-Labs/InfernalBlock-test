@@ -306,7 +306,7 @@
 			passive: 0
 			monster: 0
 		}
-		color: 16777215
+		color: 8007713
 		item_name: "Food Crate"
 		string_id: "food_crate"
 	}

@@ -12,7 +12,12 @@
 			title: "Netherrack"
 			x: -4.0d
 			y: -0.5d
-			description: ["Break netherrack (with empty hand)"]
+			description: [
+				"Collect Netherrack."
+				""
+				""
+				"You can break netherrack with an empty hand."
+			]
 			dependencies: ["14DC7567F6A03ADA"]
 			id: "22FB9E74AA26BC75"
 			tasks: [{
@@ -36,14 +41,14 @@
 						Count: 1b
 						tag: { }
 					}
-					count: 16
+					count: 32
 				}
 			]
 		}
 		{
 			x: -5.5d
 			y: -0.5d
-			description: ["The overworld has been destroyed. There is only so few survivors left. After the attack of the great one we had fled to the nether for a safe haven. This hellish landscape is the safest thing we have. Theres fire everwhere. This place is a sort of...Infernal Refuge"]
+			description: ["The overworld has been destroyed, there is only so few survivors left. After the attack of the great one we had fled to the nether for a safe haven. This hellish landscape is the only \"safest\" place we have. but heres fire and demons everwhere. This place is a sort of...Infernal Refuge"]
 			id: "14DC7567F6A03ADA"
 			tasks: [{
 				id: "7352D1CCEAA7ABCE"
@@ -83,6 +88,7 @@
 		{
 			x: -1.0d
 			y: -0.5d
+			description: ["Craft a stone version of the crafting table."]
 			dependencies: ["6B21DA1B6625388D"]
 			id: "77B7A18537A25836"
 			tasks: [{
@@ -160,7 +166,11 @@
 			x: 3.0d
 			y: -0.5d
 			subtitle: "Nether Ores"
-			description: ["Look for ores in the nether"]
+			description: [
+				"Look for ores in the nether"
+				""
+				"Nether Ores can generate at any Y level, Nether Iron Ore is the most common ore."
+			]
 			dependencies: ["4022C4E4CE700488"]
 			id: "3C68E94F3DFFD370"
 			tasks: [{
@@ -220,6 +230,17 @@
 						}
 					}
 					count: 2
+				}
+				{
+					id: "516ACF233FEE9039"
+					type: "item"
+					item: {
+						id: "cyclic:charm_home"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
 				}
 			]
 		}
@@ -403,15 +424,16 @@
 				}
 			]
 			rewards: [{
-				id: "1D67CCA93118460D"
+				id: "077A156EFA079E61"
 				type: "choice"
-				table_id: 4249831328963482454L
+				table_id: 285749695232471684L
 			}]
 		}
 		{
 			title: "Lava"
 			x: 6.0d
 			y: -0.5d
+			description: ["Collect lava from the lava lakes."]
 			dependencies: ["3C68E94F3DFFD370"]
 			id: "2DA4D38D49359F61"
 			tasks: [{
@@ -432,6 +454,7 @@
 		{
 			x: 4.5d
 			y: -0.5d
+			description: ["A better version of the furnace that can be upgrade with many features."]
 			dependencies: ["3C68E94F3DFFD370"]
 			id: "24D886DC85EE7BEA"
 			tasks: [{
@@ -444,13 +467,13 @@
 				}
 			}]
 			rewards: [{
-				id: "51944081B0EFC164"
+				id: "7EA0EF3AD0FBE8F3"
 				type: "choice"
-				table_id: 4249831328963482454L
+				table_id: 285749695232471684L
 			}]
 		}
 		{
-			x: 11.0d
+			x: 10.5d
 			y: -0.5d
 			dependencies: ["446079C04C44DCE0"]
 			id: "10E00BEFC02CE0B8"
@@ -464,9 +487,9 @@
 				}
 			}]
 			rewards: [{
-				id: "0E83D02F0D80FE9B"
+				id: "544D488099ED940B"
 				type: "choice"
-				table_id: 4249831328963482454L
+				table_id: 3664273347422943692L
 			}]
 		}
 		{
@@ -484,9 +507,9 @@
 				}
 			}]
 			rewards: [{
-				id: "28845C28BA190D56"
+				id: "0BCB92B8CD2589C1"
 				type: "choice"
-				table_id: 4249831328963482454L
+				table_id: 6411501140632264875L
 			}]
 		}
 		{
@@ -498,6 +521,14 @@
 			}
 			x: 9.0d
 			y: -0.5d
+			description: [
+				"Crucibles can be used to melt down leaves into water"
+				""
+				"Notes:"
+				"Warped and Crimsom Crucibles require a heat source below it."
+				""
+				"Heat Sources can be torches and lava"
+			]
 			dependencies: ["256BD9FF2E63977D"]
 			id: "446079C04C44DCE0"
 			tasks: [{
@@ -554,9 +585,9 @@
 				}
 			}]
 			rewards: [{
-				id: "25E6357A9948E29B"
+				id: "2FFE9A44AEFCBF94"
 				type: "choice"
-				table_id: 4249831328963482454L
+				table_id: 3664273347422943692L
 			}]
 		}
 		{
@@ -620,6 +651,12 @@
 		{
 			x: 7.5d
 			y: -0.5d
+			description: [
+				"The Stone Barrel can be used to tranform liquids into blocks."
+				""
+				"Tranfomation Examples:"
+				"Netherrack into Crimsom Stem"
+			]
 			dependencies: ["2DA4D38D49359F61"]
 			id: "256BD9FF2E63977D"
 			tasks: [{
@@ -662,21 +699,33 @@
 		{
 			x: 7.5d
 			y: -1.5d
+			description: ["You can get dirt by composting plants and leaves on the barrel."]
 			dependencies: ["256BD9FF2E63977D"]
 			id: "19D5E6F96506A87B"
-			tasks: [{
-				id: "03955D42B1DE0796"
-				type: "item"
-				item: {
-					id: "minecraft:dirt"
-					Count: 1b
-					tag: { }
+			tasks: [
+				{
+					id: "03955D42B1DE0796"
+					type: "item"
+					item: {
+						id: "minecraft:dirt"
+						Count: 1b
+						tag: { }
+					}
 				}
-			}]
+				{
+					id: "6D1F89FD70E00E37"
+					type: "item"
+					item: {
+						id: "cyclic:soil"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
 			rewards: [{
-				id: "1851F3E7D3FF40D4"
+				id: "022E5B14357FDF24"
 				type: "choice"
-				table_id: 4249831328963482454L
+				table_id: 3664273347422943692L
 			}]
 		}
 		{
@@ -688,56 +737,55 @@
 			}
 			x: 7.5d
 			y: 0.5d
+			description: ["You can get wood by transforming liquids into wood blocks."]
 			dependencies: ["256BD9FF2E63977D"]
 			id: "198CC01730E8C093"
-			tasks: [
-				{
-					id: "60B2D12510F824A8"
-					type: "item"
-					item: {
-						id: "biomesoplenty:hellbark_log"
-						Count: 1b
-						tag: { }
+			tasks: [{
+				id: "271E109E3272FD66"
+				type: "item"
+				title: "Wood"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "minecraft:oak_log"
+								Count: 1b
+								tag: { }
+							}
+							{
+								id: "biomesoplenty:hellbark_log"
+								Count: 1b
+								tag: { }
+							}
+							{
+								id: "minecraft:crimson_stem"
+								Count: 1b
+								tag: { }
+							}
+							{
+								id: "minecraft:warped_stem"
+								Count: 1b
+								tag: { }
+							}
+						]
 					}
 				}
-				{
-					id: "55D22F16B2E09A36"
-					type: "item"
-					item: {
-						id: "minecraft:crimson_stem"
-						Count: 1b
-						tag: { }
-					}
-				}
-				{
-					id: "7C703047D37596FF"
-					type: "item"
-					item: {
-						id: "minecraft:warped_stem"
-						Count: 1b
-						tag: { }
-					}
-				}
-				{
-					id: "49F03DDD5EC5940E"
-					type: "item"
-					item: {
-						id: "minecraft:oak_log"
-						Count: 1b
-						tag: { }
-					}
-				}
-			]
+			}]
 			rewards: [{
-				id: "7E5078B1D5FB4C46"
+				id: "585CBE5E4AD040BC"
 				type: "choice"
-				table_id: 4249831328963482454L
+				table_id: 3664273347422943692L
 			}]
 		}
 		{
-			x: 10.0d
+			x: 9.0d
 			y: -1.5d
-			dependencies: ["10E00BEFC02CE0B8"]
+			dependencies: [
+				"10E00BEFC02CE0B8"
+				"256BD9FF2E63977D"
+			]
 			id: "1E9799437E62D946"
 			tasks: [{
 				id: "40C4ED0F887EBE80"
@@ -749,14 +797,15 @@
 				}
 			}]
 			rewards: [{
-				id: "22FD500A00B19026"
+				id: "75A367F1663C9B22"
 				type: "choice"
-				table_id: 4249831328963482454L
+				table_id: 3664273347422943692L
 			}]
 		}
 		{
 			x: 4.5d
 			y: -1.5d
+			description: ["An upgrade that makes the furnace double the output when processing raw ores."]
 			dependencies: ["24D886DC85EE7BEA"]
 			id: "75ECD7DEA4CB6E3A"
 			tasks: [{
@@ -769,9 +818,9 @@
 				}
 			}]
 			rewards: [{
-				id: "31FE11247B156B1E"
+				id: "68A11114C5EEB32D"
 				type: "choice"
-				table_id: 4249831328963482454L
+				table_id: 285749695232471684L
 			}]
 		}
 		{
@@ -839,9 +888,12 @@
 			}]
 		}
 		{
-			x: 10.0d
+			x: 9.0d
 			y: 0.5d
-			dependencies: ["10E00BEFC02CE0B8"]
+			dependencies: [
+				"10E00BEFC02CE0B8"
+				"256BD9FF2E63977D"
+			]
 			id: "23CB52F02548777B"
 			tasks: [{
 				id: "00CBD47AB72B279B"
@@ -853,9 +905,9 @@
 				}
 			}]
 			rewards: [{
-				id: "7661F95A4923FCD8"
+				id: "09552EDF293EBF47"
 				type: "choice"
-				table_id: 4249831328963482454L
+				table_id: 6411501140632264875L
 			}]
 		}
 		{
@@ -923,6 +975,11 @@
 					}
 				}
 			]
+			rewards: [{
+				id: "68891300DA87E7DA"
+				type: "choice"
+				table_id: 4249831328963482454L
+			}]
 		}
 		{
 			x: 12.0d
@@ -939,9 +996,9 @@
 				}
 			}]
 			rewards: [{
-				id: "49B8AB7C078D7D0E"
+				id: "4DABAB1EB9C4866F"
 				type: "choice"
-				table_id: 4249831328963482454L
+				table_id: 6411501140632264875L
 			}]
 		}
 		{
@@ -981,6 +1038,11 @@
 						Damage: 0
 					}
 				}
+			}]
+			rewards: [{
+				id: "2FB8525E0ACC17B6"
+				type: "choice"
+				table_id: 4249831328963482454L
 			}]
 		}
 		{

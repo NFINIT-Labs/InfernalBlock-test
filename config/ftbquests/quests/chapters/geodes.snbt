@@ -14,7 +14,11 @@
 	quests: [
 		{
 			x: -3.0d
-			y: 0.0d
+			y: 1.0d
+			description: [
+				"Geode Ores are geode that spawn in the nether between Y10-Y35"
+				""
+			]
 			dependencies: ["3D056BA5635B22E6"]
 			id: "3029C36601D4E320"
 			tasks: [
@@ -175,6 +179,11 @@
 					}
 				}
 			]
+			rewards: [{
+				id: "1EDB723B8F4A0552"
+				type: "choice"
+				table_id: 1884421838687401553L
+			}]
 		}
 		{
 			title: "Geodes"
@@ -183,11 +192,32 @@
 				Count: 1b
 				tag: { }
 			}
-			x: -4.5d
-			y: 0.0d
+			x: -3.0d
+			y: -1.5d
 			description: ["To unlock this questline, first you have to unlock Lava"]
 			dependencies: ["2DA4D38D49359F61"]
 			id: "3D056BA5635B22E6"
+			tasks: [{
+				id: "681C2103E2AD34FC"
+				type: "checkmark"
+				title: "Unlock Questline"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 0.0d
+			description: ["Geode Ores are surrounded by Smooth Basalt blocks"]
+			dependencies: ["3D056BA5635B22E6"]
+			id: "4D80AD5728B44F82"
+			tasks: [{
+				id: "2D4C49666CBF7EA2"
+				type: "item"
+				item: {
+					id: "minecraft:smooth_basalt"
+					Count: 1b
+					tag: { }
+				}
+			}]
 		}
 	]
 }

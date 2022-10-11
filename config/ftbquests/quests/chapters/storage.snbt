@@ -1,7 +1,7 @@
 {
 	id: "06D5649AD88F9834"
 	group: ""
-	order_index: 9
+	order_index: 6
 	filename: "storage"
 	title: "Storage"
 	icon: {
@@ -29,8 +29,12 @@
 			description: [""]
 			dependencies: ["3C68E94F3DFFD370"]
 			dependency_requirement: "one_completed"
-			optional: true
 			id: "04A4525E228C14E3"
+			tasks: [{
+				id: "0C1CBCA2494E904E"
+				type: "checkmark"
+				title: "Unlock Questline"
+			}]
 		}
 		{
 			title: "Refined Storage"
@@ -90,6 +94,11 @@
 					}
 				}
 			]
+			rewards: [{
+				id: "29C249E062829F6C"
+				type: "choice"
+				table_id: 6411501140632264875L
+			}]
 		}
 		{
 			title: "External Storage"
@@ -170,6 +179,11 @@
 					}
 				}
 			]
+			rewards: [{
+				id: "06ACA8B834850128"
+				type: "choice"
+				table_id: 6411501140632264875L
+			}]
 		}
 		{
 			x: 4.5d
@@ -184,6 +198,11 @@
 					Count: 1b
 					tag: { }
 				}
+			}]
+			rewards: [{
+				id: "0BCB0C2702BE34F7"
+				type: "choice"
+				table_id: 3664273347422943692L
 			}]
 		}
 		{
@@ -211,6 +230,11 @@
 					}
 				}
 			]
+			rewards: [{
+				id: "3EB87AEE851841D2"
+				type: "choice"
+				table_id: 6411501140632264875L
+			}]
 		}
 		{
 			title: "Sophisticated Storage"
@@ -286,6 +310,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "79E0D536FC31926D"
+				type: "choice"
+				table_id: 6411501140632264875L
+			}]
 		}
 		{
 			title: "Simple Storage"
@@ -340,6 +369,11 @@
 					}
 				}
 			]
+			rewards: [{
+				id: "2C67EC43585E1DC8"
+				type: "choice"
+				table_id: 6411501140632264875L
+			}]
 		}
 		{
 			x: 7.5d
@@ -354,6 +388,11 @@
 					Count: 1b
 					tag: { }
 				}
+			}]
+			rewards: [{
+				id: "67A699E057EFF885"
+				type: "choice"
+				table_id: 6411501140632264875L
 			}]
 		}
 	]

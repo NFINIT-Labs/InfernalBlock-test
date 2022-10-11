@@ -31,10 +31,6 @@ onEvent('block.modification', event => {
 
 //Items Modify
 onEvent('item.modification', event => {
-        event.modify('cyclic:netherbrick_pickaxe', item => {
-        item.tier.tierOptions.level =  'iron'
-
-    })
 })
 
 // Item Tags

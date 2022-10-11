@@ -1,7 +1,7 @@
 {
 	id: "77F66F5492B3A382"
 	group: ""
-	order_index: 10
+	order_index: 9
 	filename: "useful_tools"
 	title: "Useful Items"
 	icon: {
@@ -26,6 +26,11 @@
 					tag: { }
 				}
 			}]
+			rewards: [{
+				id: "397EDFDD164AFD62"
+				type: "choice"
+				table_id: 3664273347422943692L
+			}]
 		}
 		{
 			title: "Useful Items"
@@ -40,6 +45,11 @@
 			dependencies: ["1E9799437E62D946"]
 			optional: true
 			id: "1A45B892B0FF1AE8"
+			tasks: [{
+				id: "6FA6FCF67FE587A1"
+				type: "checkmark"
+				title: "Unlock Questline"
+			}]
 		}
 		{
 			x: -4.5d
@@ -61,6 +71,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "565B7AA4C2106121"
+				type: "choice"
+				table_id: 3664273347422943692L
+			}]
 		}
 		{
 			x: -3.0d
@@ -78,6 +93,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "5217AB49BB68A35A"
+				type: "choice"
+				table_id: 6411501140632264875L
+			}]
 		}
 		{
 			x: -4.5d
@@ -92,6 +112,11 @@
 					Count: 1b
 					tag: { }
 				}
+			}]
+			rewards: [{
+				id: "3993048CCF3CD69F"
+				type: "choice"
+				table_id: 3664273347422943692L
 			}]
 		}
 		{
@@ -109,6 +134,11 @@
 						Damage: 0
 					}
 				}
+			}]
+			rewards: [{
+				id: "6A9B393A2AE77E49"
+				type: "choice"
+				table_id: 3664273347422943692L
 			}]
 		}
 		{
@@ -134,6 +164,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "543F28A1712F5196"
+				type: "choice"
+				table_id: 3664273347422943692L
+			}]
 		}
 		{
 			x: -6.0d
@@ -149,6 +184,11 @@
 					tag: { }
 				}
 			}]
+			rewards: [{
+				id: "68CE35CCEAD4BB64"
+				type: "choice"
+				table_id: 6411501140632264875L
+			}]
 		}
 		{
 			x: -6.0d
@@ -163,6 +203,11 @@
 					Count: 1b
 					tag: { }
 				}
+			}]
+			rewards: [{
+				id: "50F2EAF8AE253653"
+				type: "choice"
+				table_id: 3664273347422943692L
 			}]
 		}
 	]
