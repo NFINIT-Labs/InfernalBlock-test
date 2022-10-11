@@ -1,7 +1,7 @@
 
 ["Mob Settings:Lost Soul"]
 	#Range: > 1
-	"Lost Soul Spawn Weight" = 25
+	"Lost Soul Spawn Weight" = 15
 	#Range: 1.0 ~ 1.7976931348623157E308
 	"Sets Lost Soul Melee Damage" = 1.0
 	#Range: > 1
@@ -23,7 +23,7 @@
 	#Range: 1.0 ~ 1.7976931348623157E308
 	"Sets the Prowler Damage" = 4.0
 	#Range: > 1
-	"Prowler Spawn Weight" = 15
+	"Prowler Spawn Weight" = 10
 	#Range: 1.0 ~ 1.7976931348623157E308
 	"Sets Prowler Ranged Damage" = 4.0
 	#Range: 1.0 ~ 1.7976931348623157E308
@@ -35,7 +35,7 @@
 	#Range: > 1
 	"Pinky Min Group" = 2
 	#Range: > 1
-	"Pinky Spawn Weight" = 15
+	"Pinky Spawn Weight" = 5
 	#Supports Biome Registry Names (minecraft:desert) or Biomes Tag with #
 	"Pinky Biomes" = ["#nether"]
 	#Sets Pinky Max Health
@@ -50,7 +50,7 @@
 	#Range: > 1
 	"Pain Elemental Min Group" = 1
 	#Range: > 1
-	"Pain Elemental Spawn Weight" = 4
+	"Pain Elemental Spawn Weight" = 2
 	#Supports Biome Registry Names (minecraft:desert) or Biomes Tag with #
 	"Pain Elemental Biomes" = ["#nether"]
 	#Range: > 1
@@ -58,7 +58,7 @@
 
 ["Mob Settings:Tentacle"]
 	#Range: > 1
-	"Tentacle Spawn Weight" = 4
+	"Tentacle Spawn Weight" = 2
 	#Range: 1.0 ~ 1.7976931348623157E308
 	"Sets Tentacle Max Health" = 5.0
 	#Range: > 1
@@ -74,7 +74,7 @@
 	#Range: > 1
 	"Baron of Hell Min Group" = 1
 	#Range: > 1
-	"Baron of Hell Spawn Weight" = 4
+	"Baron of Hell Spawn Weight" = 2
 	#Range: > 1
 	"Baron of Hell Max Group" = 1
 	#Range: 1.0 ~ 1.7976931348623157E308
@@ -118,7 +118,7 @@
 
 ["Mob Settings:Hellknight"]
 	#Range: > 1
-	"Hellknight Spawn Weight" = 4
+	"Hellknight Spawn Weight" = 2
 	#Range: 1.0 ~ 1.7976931348623157E308
 	"Sets Hellknight Max Health" = 70.0
 	#Supports Biome Registry Names (minecraft:desert) or Biomes Tag with #
@@ -164,13 +164,13 @@
 	#Supports Biome Registry Names (minecraft:desert) or Biomes Tag with #
 	"Doom Hunter Biomes" = ["#nether"]
 	#Range: > 1
-	"Doom Hunter Spawn Weight" = 4
+	"Doom Hunter Spawn Weight" = 1
 	#Range: > 1
 	"Doom Hunter Min Group" = 1
 	#Range: 1.0 ~ 1.7976931348623157E308
 	"Sets Doomhunter Melee Damage" = 3.0
 	#Range: 1.0 ~ 1.7976931348623157E308
-	"Sets Doomhunter Max Health" = 75.0
+	"Sets Doomhunter Max Health" = 50.0
 
 ["PMMO Compat"]
 	#Range: > 1
@@ -191,7 +191,7 @@
 	#Range: 1.0 ~ 1.7976931348623157E308
 	"Sets Imp Max health" = 20.0
 	#Range: > 1
-	"Imp Spawn Weight" = 25
+	"Imp Spawn Weight" = 15
 	#Range: > 1
 	"Imp Max Group" = 4
 	#Range: 1.0 ~ 1.7976931348623157E308
@@ -209,9 +209,9 @@
 	#Range: 1.0 ~ 1.7976931348623157E308
 	"Sets Hellknight 2016 Melee Damage" = 4.0
 	#Range: > 1
-	"Hellknight 2016 Spawn Weight" = 4
+	"Hellknight 2016 Spawn Weight" = 2
 	#Range: 1.0 ~ 1.7976931348623157E308
-	"Sets Hellknight 2016 Max Health" = 70.0
+	"Sets Hellknight 2016 Max Health" = 50.0
 	#Range: > 1
 	"Hellknight 2016 Min Group" = 1
 
@@ -227,7 +227,7 @@
 	#Range: > 1
 	"Unwilling Max Group" = 4
 	#Range: > 1
-	"Unwilling Spawn Weight" = 15
+	"Unwilling Spawn Weight" = 10
 
 ["Mob Settings:Turret"]
 	#Range: > 1
@@ -235,11 +235,11 @@
 	#Range: 1.0 ~ 1.7976931348623157E308
 	"Sets Turret Max Health" = 5.0
 	#Range: > 1
-	"Turret Spawn Weight" = 15
+	"Turret Spawn Weight" = 10
 	#Supports Biome Registry Names (minecraft:desert) or Biomes Tag with #
 	"Turret Biomes" = ["#nether"]
 	#Range: 1.0 ~ 1.7976931348623157E308
-	"Sets Turret Ranged Damage" = 6.0
+	"Sets Turret Ranged Damage" = 4.0
 	#Range: > 1
 	"Turret Min Group" = 1
 
@@ -249,7 +249,7 @@
 	#Range: 1.0 ~ 1.7976931348623157E308
 	"Sets Possessed Solider Max Health" = 20.0
 	#Range: > 1
-	"Possessed Soldier Spawn Weight" = 25
+	"Possessed Soldier Spawn Weight" = 5
 	#Range: > 1
 	"Possessed Soldier Max Group" = 3
 	#Range: 1.0 ~ 1.7976931348623157E308
@@ -299,7 +299,7 @@
 	#Supports Biome Registry Names (minecraft:desert) or Biomes Tag with #
 	"Cacodemon Biomes" = ["#nether"]
 	#Range: > 1
-	"Cacodemon Spawn Weight" = 4
+	"Cacodemon Spawn Weight" = 2
 	#Range: > 1
 	"Cacodemon Min Group" = 1
 	#Sets Cacodemon Ranged Damage
@@ -312,7 +312,7 @@
 	#Range: > 1
 	"Chaingunner Min Group" = 1
 	#Range: > 1
-	"Chaingunner Spawn Weight" = 15
+	"Chaingunner Spawn Weight" = 10
 	#Range: > 1
 	"Chaingunner Max Group" = 4
 	#Range: 1.0 ~ 1.7976931348623157E308
@@ -320,9 +320,9 @@
 
 ["Mob Settings:Armored Baron"]
 	#Range: > 1
-	"Armored Baron Spawn Weight" = 4
+	"Armored Baron Spawn Weight" = 2
 	#Range: 1.0 ~ 1.7976931348623157E308
-	"Sets Armored Baron Max Health" = 70.0
+	"Sets Armored Baron Max Health" = 50.0
 	#Range: 1.0 ~ 1.7976931348623157E308
 	"Sets Armored Baron Melee Damage" = 5.0
 	#Range: > 1
@@ -334,7 +334,7 @@
 
 ["Mob Settings:Stone Imps"]
 	#Range: > 1
-	"Stone Imp Spawn Weight" = 25
+	"Stone Imp Spawn Weight" = 15
 	#Range: 1.0 ~ 1.7976931348623157E308
 	"Sets Stone Imp Melee Damage" = 2.0
 	#Supports Biome Registry Names (minecraft:desert) or Biomes Tag with #
@@ -352,9 +352,9 @@
 	#Range: > 1
 	"Blood Maykr Min Group" = 1
 	#Range: 1.0 ~ 1.7976931348623157E308
-	"Sets Blood Maykr Max Health" = 40.0
+	"Sets Blood Maykr Max Health" = 50.0
 	#Range: > 1
-	"Blood Maykr Spawn Weight" = 6
+	"Blood Maykr Spawn Weight" = 2
 	#Range: > 1
 	"Blood Maykr Max Group" = 1
 	#Range: 1.0 ~ 1.7976931348623157E308
@@ -362,17 +362,17 @@
 
 ["Mob Settings:Motherdemon"]
 	#Range: 1.0 ~ 1.7976931348623157E308
-	"Sets Motherdemon Ranged Damage" = 8.0
+	"Sets Motherdemon Ranged Damage" = 4.0
 	#Range: > 1
 	"Motherdemon Spawn Weight" = 1
 	#Range: 1.0 ~ 1.7976931348623157E308
-	"Sets Motherdemon Extra Ranged Damage For 2nd Phase" = 14.0
+	"Sets Motherdemon Extra Ranged Damage For 2nd Phase" = 8.0
 	#Supports Biome Registry Names (minecraft:desert) or Biomes Tag with #
 	"Motherdemon Biomes" = [""]
 	#Range: > 1
 	"Motherdemon Min Group" = 1
 	#Range: 1.0 ~ 1.7976931348623157E308
-	"Sets Motherdemon Max Health" = 250.0
+	"Sets Motherdemon Max Health" = 100.0
 	#Range: > 1
 	"Motherdemon Max Group" = 1
 
@@ -386,19 +386,19 @@
 	#Range: 1.0 ~ 1.7976931348623157E308
 	"Sets the Mechazombie Health" = 20.0
 	#Range: > 1
-	"Mechazombie Max Group" = 4
+	"Mechazombie Max Group" = 2
 	#Range: > 1
-	"Mechazombie Spawn Weight" = 20
+	"Mechazombie Spawn Weight" = 8
 
 ["Mob Settings:Arachnotron"]
 	#Supports Biome Registry Names (minecraft:desert) or Biomes Tag with #
 	"Arachnotron Biomes" = ["#nether"]
 	#Range: > 1
-	"Arachnotron Spawn Weight" = 15
+	"Arachnotron Spawn Weight" = 8
 	#Range: 1.0 ~ 1.7976931348623157E308
 	"Sets Arachnotron Max Health" = 20.0
 	#Range: > 1
-	"Arachnotron Max Group" = 4
+	"Arachnotron Max Group" = 2
 	#Range: 1.0 ~ 1.7976931348623157E308
 	"Sets Arachnotron Ranged Damage" = 2.0
 	#Range: > 1
@@ -408,7 +408,7 @@
 	#Range: > 1
 	"Maykr Drone Min Group" = 1
 	#Range: > 1
-	"Maykr Drone Spawn Weight" = 15
+	"Maykr Drone Spawn Weight" = 10
 	#Range: 1.0 ~ 1.7976931348623157E308
 	"Sets Maykr Drone Max Health" = 20.0
 	#Supports Biome Registry Names (minecraft:desert) or Biomes Tag with #
@@ -440,7 +440,7 @@
 	#Range: 1.0 ~ 1.7976931348623157E308
 	"Sets Marauder Max Health" = 50.0
 	#Range: > 1
-	"Marauder Spawn Weight" = 3
+	"Marauder Spawn Weight" = 2
 	#Range: > 1
 	"Marauder Max Group" = 1
 	#Range: 1.0 ~ 1.7976931348623157E308
@@ -458,11 +458,11 @@
 
 ["Mob Settings:Possessed Worker"]
 	#Range: > 1
-	"Possessed Worker Max Group" = 4
+	"Possessed Worker Max Group" = 2
 	#Range: > 1
 	"Possessed Worker Min Group" = 1
 	#Range: > 1
-	"Possessed Worker Spawn Weight" = 10
+	"Possessed Worker Spawn Weight" = 5
 	#Supports Biome Registry Names (minecraft:desert) or Biomes Tag with #
 	"Possessed Worker Biomes" = ["#nether"]
 
@@ -470,13 +470,13 @@
 	#Supports Biome Registry Names (minecraft:desert) or Biomes Tag with #
 	"Cyberdemon Biomes" = ["#nether"]
 	#Range: 1.0 ~ 1.7976931348623157E308
-	"Sets Cyberdemon Max Health" = 70.0
+	"Sets Cyberdemon Max Health" = 50.0
 	#Range: 1.0 ~ 1.7976931348623157E308
 	"Sets Cyberdemon Melee Damage" = 5.0
 	#Range: > 1
 	"Cyberdemon Min Group" = 1
 	#Range: > 1
-	"Cyberdemon Spawn Weight" = 4
+	"Cyberdemon Spawn Weight" = 2
 	#Range: 1.0 ~ 1.7976931348623157E308
 	"Sets Cyberdemon Ranged Damage" = 4.0
 	#Range: > 1
@@ -488,7 +488,7 @@
 	#Supports Biome Registry Names (minecraft:desert) or Biomes Tag with #
 	"Cueball Biomes" = ["#nether"]
 	#Range: > 1
-	"Cueball Spawn Weight" = 15
+	"Cueball Spawn Weight" = 10
 	#Range: 1.0 ~ 1.7976931348623157E308
 	"Sets Cueball Max Health" = 1.0
 	#Range: > 1
@@ -502,9 +502,9 @@
 	#Supports Biome Registry Names (minecraft:desert) or Biomes Tag with #
 	"Shotgun Guy Biomes" = ["#nether"]
 	#Range: > 1
-	"Shotgun Guy Max Group" = 4
+	"Shotgun Guy Max Group" = 2
 	#Range: > 1
-	"Shotgun Guy Spawn Weight" = 15
+	"Shotgun Guy Spawn Weight" = 10
 
 ["Mob Settings:Archvile"]
 	#Range: > 1
@@ -522,21 +522,21 @@
 
 ["Mob Settings:Gladiator"]
 	#Range: 1.0 ~ 1.7976931348623157E308
-	"Sets Gladiator Ranged Damage" = 6.0
+	"Sets Gladiator Ranged Damage" = 4.0
 	#Supports Biome Registry Names (minecraft:desert) or Biomes Tag with #
 	"Gladiator Biomes" = [""]
 	#Range: 1.0 ~ 1.7976931348623157E308
-	"Sets Gladiator Max Health" = 70.0
+	"Sets Gladiator Max Health" = 50.0
 	#Range: 1.0 ~ 1.7976931348623157E308
-	"Sets Gladiator Ranged Damage For 2nd Phase" = 6.0
+	"Sets Gladiator Ranged Damage For 2nd Phase" = 8.0
 	#Range: 1.0 ~ 1.7976931348623157E308
-	"Sets Gladiator Melee Damage" = 7.0
+	"Sets Gladiator Melee Damage" = 4.0
 	#Range: > 1
 	"Gladiator Min Group" = 1
 	#Range: > 1
 	"Gladiator Max Group" = 1
 	#Range: > 1
-	"Gladiator Spawn Weight" = 4
+	"Gladiator Spawn Weight" = 2
 
 ["Mob Settings:Possessed Scientist"]
 	#Range: 1.0 ~ 1.7976931348623157E308
@@ -544,9 +544,9 @@
 	#Supports Biome Registry Names (minecraft:desert) or Biomes Tag with #
 	"Possessed Scientist Biomes" = ["#nether"]
 	#Range: > 1
-	"Possessed Scientist Spawn Weight" = 15
+	"Possessed Scientist Spawn Weight" = 4
 	#Range: > 1
-	"Possessed Scientist Max Group" = 4
+	"Possessed Scientist Max Group" = 2
 	#Range: > 1
 	"Possessed Scientist Min Group" = 1
 	#Range: 1.0 ~ 1.7976931348623157E308
@@ -558,11 +558,11 @@
 	#Range: > 1
 	"Mancubus Max Group" = 1
 	#Range: 1.0 ~ 1.7976931348623157E308
-	"Sets Mancubus Max Health" = 40.0
+	"Sets Mancubus Max Health" = 50.0
 	#Range: 1.0 ~ 1.7976931348623157E308
 	"Sets Mancubus Ranged Damage" = 3.0
 	#Range: > 1
-	"Mancubus Spawn Weight" = 4
+	"Mancubus Spawn Weight" = 2
 	#Range: > 1
 	"Mancubus Min Group" = 1
 	#Range: 1.0 ~ 1.7976931348623157E308
@@ -582,7 +582,7 @@
 	#Supports Biome Registry Names (minecraft:desert) or Biomes Tag with #
 	"Gargoyle Biomes" = ["#nether"]
 	#Range: > 1
-	"Gargoyle Spawn Weight" = 15
+	"Gargoyle Spawn Weight" = 10
 
 ["Mob Settings:Icon of Sin"]
 	#Icon of Sin Wave Mobs List
@@ -598,9 +598,9 @@
 	#Range: > 1
 	"Summoner Max Group" = 2
 	#Range: > 1
-	"Summoner Spawn Weight" = 4
+	"Summoner Spawn Weight" = 2
 	#Range: 1.0 ~ 1.7976931348623157E308
-	"Sets Summoner Max Health" = 40.0
+	"Sets Summoner Max Health" = 50.0
 	#Supports Biome Registry Names (minecraft:desert) or Biomes Tag with #
 	"Summoner Biomes" = ["#nether"]
 	#Range: 1.0 ~ 1.7976931348623157E308
@@ -616,9 +616,9 @@
 	#Supports Biome Registry Names (minecraft:desert) or Biomes Tag with #
 	"Zombieman Biomes" = ["#nether"]
 	#Range: > 1
-	"Zombieman Spawn Weight" = 35
+	"Zombieman Spawn Weight" = 15
 	#Range: > 1
-	"Zombieman Max Group" = 4
+	"Zombieman Max Group" = 2
 
 ["Mob Settings:Spider Mastermind"]
 	#Range: > 1
@@ -628,13 +628,13 @@
 	#Range: > 1
 	"Spider Mastermind Max Group" = 1
 	#Range: 1.0 ~ 1.7976931348623157E308
-	"Sets Spider Mastermind Max Health" = 150.0
+	"Sets Spider Mastermind Max Health" = 50.0
 	#Supports Biome Registry Names (minecraft:desert) or Biomes Tag with #
 	"Spider Mastermind Biomes" = ["#nether"]
 	#Range: 1.0 ~ 1.7976931348623157E308
 	"Sets Spider Mastermind Ranged Damage" = 5.0
 	#Range: > 1
-	"Spider Mastermind Spawn Weight" = 4
+	"Spider Mastermind Spawn Weight" = 2
 
 ["Mob Settings:Spectre"]
 	#Range: > 1
@@ -644,11 +644,11 @@
 	#Range: > 1
 	"Spectre Min Group" = 2
 	#Range: 1.0 ~ 1.7976931348623157E308
-	"Sets Spectre Max Health" = 45.0
+	"Sets Spectre Max Health" = 20.0
 	#Supports Biome Registry Names (minecraft:desert) or Biomes Tag with #
 	"Spectre Biomes" = ["#nether"]
 	#Range: > 1
-	"Spectre Spawn Weight" = 15
+	"Spectre Spawn Weight" = 10
 
 ["Mob Settings:Gorenest"]
 	#Range: > 1

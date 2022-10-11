@@ -32,8 +32,22 @@ event.shaped('exnihilosequentia:stone_crook', [
     S: 'minecraft:cobblestone'
 })
 
+// cobblestone parts
+event.remove({output: 'stonechest:part_cobblestone'})
+event.shaped('stonechest:part_cobblestone', [
+    'NO ',
+    'ON ',
+    '   '
+], {
+    N: 'minecraft:cobblestone',
+    O: 'stoneutilities:stone_stick'
+
+})
 
 
+
+
+//
 event.remove({output: 'betterfurnacesreforged:raw_ore_processing_upgrade'})
 event.shaped('betterfurnacesreforged:raw_ore_processing_upgrade', [
     'NON',
@@ -115,6 +129,9 @@ event.shaped('assortedtools:copper_shears', [
   fluidItem(`minecraft:lava`,'minecraft:soul_sand','biomesoplenty:hellbark_log')
   fluidItem(`minecraft:lava`,'minecraft:dirt','minecraft:oak_log')
 
+
+event.recipes.exnihilosequentia.hammer('minecraft:netherrack')
+        .addDrop('minecraft:cobblestone', 1, 1)
 
 
 })

@@ -72,6 +72,11 @@
 				item: "minecraft:cobblestone"
 				count: 4L
 			}]
+			rewards: [{
+				id: "7EBF022F8140FBF2"
+				type: "choice"
+				table_id: 4249831328963482454L
+			}]
 		}
 		{
 			x: -1.0d
@@ -82,6 +87,11 @@
 				id: "41EE9783BBB0B9D7"
 				type: "item"
 				item: "stoneutilities:stone_crafting_table"
+			}]
+			rewards: [{
+				id: "614707C78A5DFE06"
+				type: "choice"
+				table_id: 4249831328963482454L
 			}]
 		}
 		{
@@ -94,6 +104,11 @@
 				type: "item"
 				item: "stonechest:chest_cobblestone"
 			}]
+			rewards: [{
+				id: "6085E1F58954FEBD"
+				type: "choice"
+				table_id: 4249831328963482454L
+			}]
 		}
 		{
 			x: -2.5d
@@ -104,6 +119,11 @@
 				id: "09587420582FAAFF"
 				type: "item"
 				item: "stoneutilities:stone_stick"
+			}]
+			rewards: [{
+				id: "2FCCA551AF7561C7"
+				type: "choice"
+				table_id: 4249831328963482454L
 			}]
 		}
 		{
@@ -122,6 +142,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "066C7A60192CA55A"
+				type: "choice"
+				table_id: 4249831328963482454L
+			}]
 		}
 		{
 			title: "Nether Iron Ore"
@@ -132,7 +157,7 @@
 			dependencies: ["4022C4E4CE700488"]
 			id: "3C68E94F3DFFD370"
 			tasks: [{
-				id: "2D63EF56A7AC8CC2"
+				id: "0DE36B94CE2BB1BB"
 				type: "item"
 				title: "Nether Iron Ore"
 				item: {
@@ -141,24 +166,24 @@
 					tag: {
 						items: [
 							{
-								id: "netheroresplus:blackstone_iron_ore"
+								id: "modernnetherores:nether_iron_ore"
 								Count: 1b
+								tag: { }
 							}
 							{
-								id: "netheroresplus:basalt_iron_ore"
+								id: "modernnetherores:nether_iron_ore_basalt"
 								Count: 1b
+								tag: { }
 							}
 							{
-								id: "netheroresplus:nether_iron_ore"
+								id: "modernnetherores:nether_iron_ore_blackstone"
 								Count: 1b
+								tag: { }
 							}
 							{
 								id: "minecraft:raw_iron"
 								Count: 1b
-							}
-							{
-								id: "nourished_nether:nether_iron_ore"
-								Count: 1b
+								tag: { }
 							}
 						]
 					}
@@ -192,14 +217,14 @@
 			]
 		}
 		{
-			title: "Vanilla Nether Ores"
+			title: "Nether Ores"
 			x: 2.0d
 			y: -1.5d
 			dependencies: ["3C68E94F3DFFD370"]
 			id: "06E64A7D4AF4FE60"
 			tasks: [
 				{
-					id: "5E00DB172A727122"
+					id: "3EAACC1CB4D7219F"
 					type: "item"
 					title: "Nether Coal Ore"
 					item: {
@@ -208,27 +233,31 @@
 						tag: {
 							items: [
 								{
-									id: "netheroresplus:nether_coal_ore"
+									id: "modernnetherores:nether_coal_ore"
 									Count: 1b
+									tag: { }
 								}
 								{
-									id: "netheroresplus:basalt_coal_ore"
+									id: "modernnetherores:nether_coal_ore_basalt"
 									Count: 1b
+									tag: { }
 								}
 								{
-									id: "netheroresplus:blackstone_coal_ore"
+									id: "modernnetherores:nether_coal_ore_blackstone"
 									Count: 1b
+									tag: { }
 								}
 								{
 									id: "minecraft:coal"
 									Count: 1b
+									tag: { }
 								}
 							]
 						}
 					}
 				}
 				{
-					id: "305E710C0F010437"
+					id: "08D33DC68CF017DE"
 					type: "item"
 					title: "Nether Lapis Ore"
 					item: {
@@ -237,27 +266,31 @@
 						tag: {
 							items: [
 								{
-									id: "netheroresplus:blackstone_lapis_lazuli_ore"
+									id: "modernnetherores:nether_lapis_ore"
 									Count: 1b
+									tag: { }
 								}
 								{
-									id: "netheroresplus:basalt_lapis_lazuli_ore"
+									id: "modernnetherores:nether_lapis_ore_basalt"
 									Count: 1b
+									tag: { }
 								}
 								{
-									id: "netheroresplus:nether_lapis_lazuli_ore"
+									id: "modernnetherores:nether_lapis_ore_blackstone"
 									Count: 1b
+									tag: { }
 								}
 								{
 									id: "minecraft:lapis_lazuli"
 									Count: 1b
+									tag: { }
 								}
 							]
 						}
 					}
 				}
 				{
-					id: "53379C043D0C5D04"
+					id: "448F7679D7900AAB"
 					type: "item"
 					title: "Nether Gold Ore"
 					item: {
@@ -266,31 +299,21 @@
 						tag: {
 							items: [
 								{
-									id: "netheroresplus:blackstone_gold_ore"
-									Count: 1b
-								}
-								{
-									id: "netheroresplus:basalt_gold_ore"
-									Count: 1b
-								}
-								{
-									id: "netheroresplus:nether_gold_ore"
-									Count: 1b
-								}
-								{
 									id: "minecraft:nether_gold_ore"
 									Count: 1b
+									tag: { }
 								}
 								{
 									id: "minecraft:raw_gold"
 									Count: 1b
+									tag: { }
 								}
 							]
 						}
 					}
 				}
 				{
-					id: "167E38781DEB6D02"
+					id: "0F6D72AAFCE53C96"
 					type: "item"
 					title: "Nether Redstone Ore"
 					item: {
@@ -299,27 +322,31 @@
 						tag: {
 							items: [
 								{
-									id: "netheroresplus:blackstone_redstone_ore"
+									id: "modernnetherores:nether_redstone_ore"
 									Count: 1b
+									tag: { }
 								}
 								{
-									id: "netheroresplus:basalt_redstone_ore"
+									id: "modernnetherores:nether_redstone_ore_basalt"
 									Count: 1b
+									tag: { }
 								}
 								{
-									id: "netheroresplus:nether_redstone_ore"
+									id: "modernnetherores:nether_redstone_ore_blackstone"
 									Count: 1b
+									tag: { }
 								}
 								{
 									id: "minecraft:redstone"
 									Count: 1b
+									tag: { }
 								}
 							]
 						}
 					}
 				}
 				{
-					id: "2BBECBDF6EE5424F"
+					id: "50DD3FB5BDEA0698"
 					type: "item"
 					title: "Nether Emerald Ore"
 					item: {
@@ -328,27 +355,31 @@
 						tag: {
 							items: [
 								{
-									id: "netheroresplus:blackstone_emerald_ore"
+									id: "modernnetherores:nether_emerald_ore"
 									Count: 1b
+									tag: { }
 								}
 								{
-									id: "netheroresplus:basalt_emerald_ore"
+									id: "modernnetherores:nether_emerald_ore_basalt"
 									Count: 1b
+									tag: { }
 								}
 								{
-									id: "netheroresplus:nether_emerald_ore"
+									id: "modernnetherores:nether_emerald_ore_blackstone"
 									Count: 1b
+									tag: { }
 								}
 								{
 									id: "minecraft:emerald"
 									Count: 1b
+									tag: { }
 								}
 							]
 						}
 					}
 				}
 				{
-					id: "4524C318A3590B46"
+					id: "7A03D1B269D2D7D8"
 					type: "item"
 					title: "Nether Diamond Ore"
 					item: {
@@ -357,36 +388,31 @@
 						tag: {
 							items: [
 								{
-									id: "netheroresplus:blackstone_diamond_ore"
+									id: "modernnetherores:nether_diamond_ore"
 									Count: 1b
+									tag: { }
 								}
 								{
-									id: "netheroresplus:basalt_diamond_ore"
+									id: "modernnetherores:nether_diamond_ore_basalt"
 									Count: 1b
+									tag: { }
 								}
 								{
-									id: "netheroresplus:nether_diamond_ore"
+									id: "modernnetherores:nether_diamond_ore_blackstone"
 									Count: 1b
+									tag: { }
 								}
 								{
 									id: "minecraft:diamond"
 									Count: 1b
+									tag: { }
 								}
 							]
 						}
 					}
 				}
-			]
-		}
-		{
-			title: "Modded Nether Ores"
-			x: 2.0d
-			y: 0.5d
-			dependencies: ["3C68E94F3DFFD370"]
-			id: "01CA6CB1AE605260"
-			tasks: [
 				{
-					id: "146D0F33944CE6F4"
+					id: "7E0FC5DC0A8147F3"
 					type: "item"
 					title: "Nether Copper Ore"
 					item: {
@@ -395,18 +421,43 @@
 						tag: {
 							items: [
 								{
-									id: "bno:nether_copper_ore"
+									id: "modernnetherores:nether_copper_ore"
+									Count: 1b
+									tag: { }
+								}
+								{
+									id: "modernnetherores:nether_copper_ore_basalt"
+									Count: 1b
+									tag: { }
+								}
+								{
+									id: "modernnetherores:nether_copper_ore_blackstone"
 									Count: 1b
 									tag: { }
 								}
 								{
 									id: "minecraft:raw_copper"
 									Count: 1b
+									tag: { }
 								}
 							]
 						}
 					}
 				}
+			]
+			rewards: [{
+				id: "1D67CCA93118460D"
+				type: "choice"
+				table_id: 4249831328963482454L
+			}]
+		}
+		{
+			title: "Modded Nether Ores"
+			x: 2.0d
+			y: 0.5d
+			dependencies: ["3C68E94F3DFFD370"]
+			id: "01CA6CB1AE605260"
+			tasks: [
 				{
 					id: "3E3FD52720350DE8"
 					type: "item"
@@ -555,6 +606,11 @@
 					}
 				}
 			]
+			rewards: [{
+				id: "15241F8C7BEFA0BF"
+				type: "choice"
+				table_id: 4249831328963482454L
+			}]
 		}
 		{
 			x: 5.0d
@@ -571,14 +627,9 @@
 				}
 			}]
 			rewards: [{
-				id: "428CB07BDFBF1867"
-				type: "item"
-				item: {
-					id: "biomesoplenty:hellbark_sapling"
-					Count: 1b
-					tag: { }
-				}
-				count: 4
+				id: "3DC7048DC06F078C"
+				type: "choice"
+				table_id: 4249831328963482454L
 			}]
 		}
 		{
@@ -595,6 +646,11 @@
 					tag: { }
 				}
 			}]
+			rewards: [{
+				id: "51944081B0EFC164"
+				type: "choice"
+				table_id: 4249831328963482454L
+			}]
 		}
 		{
 			x: 9.5d
@@ -610,6 +666,11 @@
 					tag: { }
 				}
 			}]
+			rewards: [{
+				id: "0E83D02F0D80FE9B"
+				type: "choice"
+				table_id: 4249831328963482454L
+			}]
 		}
 		{
 			x: 11.0d
@@ -624,6 +685,11 @@
 					Count: 1b
 					tag: { }
 				}
+			}]
+			rewards: [{
+				id: "28845C28BA190D56"
+				type: "choice"
+				table_id: 4249831328963482454L
 			}]
 		}
 		{
@@ -685,6 +751,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "25E6357A9948E29B"
+				type: "choice"
+				table_id: 4249831328963482454L
+			}]
 		}
 		{
 			x: 0.5d
@@ -731,6 +802,11 @@
 					}
 				}
 			]
+			rewards: [{
+				id: "662ACFBBD76A96D1"
+				type: "choice"
+				table_id: 4249831328963482454L
+			}]
 		}
 		{
 			x: 6.5d
@@ -746,27 +822,11 @@
 					tag: { }
 				}
 			}]
-			rewards: [
-				{
-					id: "08FCDC7693D02E63"
-					type: "item"
-					item: {
-						id: "minecraft:crimson_stem"
-						Count: 1b
-						tag: { }
-					}
-					count: 8
-				}
-				{
-					id: "67798B157404F05D"
-					type: "item"
-					item: {
-						id: "biomesoplenty:hellbark_log"
-						Count: 1b
-						tag: { }
-					}
-				}
-			]
+			rewards: [{
+				id: "6387A5343B41320C"
+				type: "choice"
+				table_id: 4249831328963482454L
+			}]
 		}
 		{
 			x: 0.5d
@@ -784,6 +844,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "4ABF6F369E12C7D6"
+				type: "choice"
+				table_id: 4249831328963482454L
+			}]
 		}
 		{
 			x: 6.5d
@@ -798,6 +863,11 @@
 					Count: 1b
 					tag: { }
 				}
+			}]
+			rewards: [{
+				id: "1851F3E7D3FF40D4"
+				type: "choice"
+				table_id: 4249831328963482454L
 			}]
 		}
 		{
@@ -834,6 +904,11 @@
 					}
 				}
 			]
+			rewards: [{
+				id: "7E5078B1D5FB4C46"
+				type: "choice"
+				table_id: 4249831328963482454L
+			}]
 		}
 		{
 			x: 9.5d
@@ -849,6 +924,11 @@
 					tag: { }
 				}
 			}]
+			rewards: [{
+				id: "22FD500A00B19026"
+				type: "choice"
+				table_id: 4249831328963482454L
+			}]
 		}
 		{
 			x: 3.5d
@@ -863,6 +943,11 @@
 					Count: 1b
 					tag: { }
 				}
+			}]
+			rewards: [{
+				id: "31FE11247B156B1E"
+				type: "choice"
+				table_id: 4249831328963482454L
 			}]
 		}
 	]

@@ -1,0 +1,66 @@
+{
+	"mod": "bygonenether",
+	"spawn": {
+		// Array of all categories this mod has spawns for
+		"categories": {
+			"creature": {
+				// Set the limit per mob within this category
+				"spawns": {
+					"wither_skeleton_horse": {
+						// Do not edit this name
+						"name": "wither_skeleton_horse",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 10
+					}
+				}
+			},
+			"monster": {
+				// Set the limit per mob within this category
+				"spawns": {
+					"piglin_hunter": {
+						// Do not edit this name
+						"name": "piglin_hunter",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"wraither": {
+						// Do not edit this name
+						"name": "wraither",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"piglin_prisoner": {
+						// Do not edit this name
+						"name": "piglin_prisoner",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"wither_skeleton_knight": {
+						// Do not edit this name
+						"name": "wither_skeleton_knight",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"wex": {
+						// Do not edit this name
+						"name": "wex",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"warped_enderman": {
+						// Do not edit this name
+						"name": "warped_enderman",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"corpor": {
+						// Do not edit this name
+						"name": "corpor",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					}
+				}
+			}
+		}
+	}
+}

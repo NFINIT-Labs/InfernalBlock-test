@@ -1,0 +1,36 @@
+{
+	"mod": "justenoughgolems",
+	"spawn": {
+		// Array of all categories this mod has spawns for
+		"categories": {
+			"creature": {
+				// Set the limit per mob within this category
+				"spawns": {
+					"plant_golem": {
+						// Do not edit this name
+						"name": "plant_golem",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 10
+					}
+				}
+			},
+			"monster": {
+				// Set the limit per mob within this category
+				"spawns": {
+					"magmatic_golem": {
+						// Do not edit this name
+						"name": "magmatic_golem",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"enraged_magmatic_golem": {
+						// Do not edit this name
+						"name": "enraged_magmatic_golem",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					}
+				}
+			}
+		}
+	}
+}

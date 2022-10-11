@@ -11,6 +11,17 @@
         "value": 10000000
       }
     },
+    "arsmagicalegacy:max_mana": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 32767,
+        "value": 10000000
+      }
+    },
     "forge:step_height_addition": {
       "enabled": false,
       "min": {
@@ -77,6 +88,17 @@
         "value": 10000000
       }
     },
+    "arsmagicalegacy:burnout_regen": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 32767,
+        "value": 10000000
+      }
+    },
     "forge:entity_gravity": {
       "enabled": false,
       "min": {
@@ -88,6 +110,17 @@
         "value": 10000000
       }
     },
+    "arsmagicalegacy:mana_regen": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 32767,
+        "value": 10000000
+      }
+    },
     "additionalentityattributes:water_speed": {
       "enabled": false,
       "min": {
@@ -96,6 +129,28 @@
       },
       "max": {
         "default": 1,
+        "value": 10000000
+      }
+    },
+    "arsmagicalegacy:max_burnout": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 32767,
+        "value": 10000000
+      }
+    },
+    "spells_and_shields:generic.mana_regen": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 50,
         "value": 10000000
       }
     },
@@ -187,6 +242,17 @@
         "value": 10000000
       }
     },
+    "arsmagicalegacy:magic_vision": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 10000000
+      }
+    },
     "additionalentityattributes:critical_bonus_damage": {
       "enabled": false,
       "min": {
@@ -195,6 +261,17 @@
       },
       "max": {
         "default": 1024,
+        "value": 10000000
+      }
+    },
+    "arsmagicalegacy:scale": {
+      "enabled": false,
+      "min": {
+        "default": 0.01,
+        "value": 0.01
+      },
+      "max": {
+        "default": 100,
         "value": 10000000
       }
     },
@@ -316,6 +393,17 @@
       },
       "max": {
         "default": 1,
+        "value": 10000000
+      }
+    },
+    "spells_and_shields:generic.max_mana": {
+      "enabled": false,
+      "min": {
+        "default": 1,
+        "value": 1
+      },
+      "max": {
+        "default": 1024,
         "value": 10000000
       }
     },
