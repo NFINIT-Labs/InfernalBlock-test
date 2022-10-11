@@ -1,0 +1,243 @@
+{
+	id: "1F0E8E2BE1C6E017"
+	group: ""
+	order_index: 8
+	filename: "inndustrial"
+	title: "Infinity Tools"
+	icon: {
+		id: "industrialforegoing:dissolution_chamber"
+		Count: 1b
+		tag: { }
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Infinity Tools"
+			icon: {
+				id: "itemfilters:weak_nbt"
+				Count: 1b
+				tag: { }
+			}
+			x: -2.0d
+			y: -3.5d
+			description: ["To unlock this questline, first you have to unlock Nether Ores [Gems] and Nether Ores [Metals]"]
+			dependencies: [
+				"06E64A7D4AF4FE60"
+				"0E95AA31CD2C0048"
+			]
+			id: "68734E3046A26B9C"
+			tasks: [{
+				id: "1422F2A9E1B456B3"
+				type: "checkmark"
+				title: "Unlock Questline"
+			}]
+		}
+		{
+			x: -2.0d
+			y: -1.0d
+			dependencies: ["4B8915C41EF39F12"]
+			id: "1B370EBE0823463F"
+			tasks: [{
+				id: "5B39F1E96B820087"
+				type: "item"
+				item: {
+					id: "industrialforegoing:dissolution_chamber"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "568640D978AF52B9"
+				type: "choice"
+				table_id: 6411501140632264875L
+			}]
+		}
+		{
+			x: -3.5d
+			y: 1.0d
+			dependencies: ["2B15E16B0349D303"]
+			id: "5EA6B745302F0587"
+			tasks: [{
+				id: "03659689342D0551"
+				type: "item"
+				item: {
+					id: "industrialforegoing:infinity_drill"
+					Count: 1b
+					tag: {
+						CanCharge: 1b
+						Special: 0b
+						Selected: "POOR"
+						Energy: 0L
+						Fluid: {
+							FluidName: "biofuel"
+							Amount: 0
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "0A1B8F7B2AC25F19"
+				type: "choice"
+				table_id: 1884421838687401553L
+			}]
+		}
+		{
+			x: -0.5d
+			y: 1.0d
+			dependencies: ["2B15E16B0349D303"]
+			id: "09B049DA40C95267"
+			tasks: [{
+				id: "2A94692BD1D07AF8"
+				type: "item"
+				item: {
+					id: "industrialforegoing:infinity_trident"
+					Count: 1b
+					tag: {
+						CanCharge: 1b
+						Riptide: 0
+						Channeling: 0b
+						Energy: 0L
+						Fluid: {
+							FluidName: "biofuel"
+							Amount: 0
+						}
+						Special: 0b
+						Selected: "POOR"
+						Loyalty: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "28CE6F059BF6F1C2"
+				type: "choice"
+				table_id: 1884421838687401553L
+			}]
+		}
+		{
+			x: -0.5d
+			y: 0.0d
+			dependencies: ["2B15E16B0349D303"]
+			id: "0481B3F844928B31"
+			tasks: [{
+				id: "5FF9F51C08749075"
+				type: "item"
+				item: {
+					id: "industrialforegoing:infinity_launcher"
+					Count: 1b
+					tag: {
+						CanCharge: 1b
+						Energy: 0L
+						Fluid: {
+							FluidName: "biofuel"
+							Amount: 0
+						}
+						Special: 0b
+						Selected: "POOR"
+						Plunger: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "711D01A27DC30E59"
+				type: "choice"
+				table_id: 1884421838687401553L
+			}]
+		}
+		{
+			x: -3.5d
+			y: 0.0d
+			dependencies: ["2B15E16B0349D303"]
+			id: "2B082AC2716C3E47"
+			tasks: [{
+				id: "361C9358B155989E"
+				type: "item"
+				item: {
+					id: "industrialforegoing:infinity_hammer"
+					Count: 1b
+					tag: {
+						CanCharge: 1b
+						Energy: 0L
+						Fluid: {
+							FluidName: "biofuel"
+							Amount: 0
+						}
+						Special: 0b
+						Selected: "POOR"
+						Beheading: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "4869F59AFE728618"
+				type: "choice"
+				table_id: 1884421838687401553L
+			}]
+		}
+		{
+			x: -2.0d
+			y: 2.0d
+			dependencies: ["2B15E16B0349D303"]
+			id: "73B0A610ED19DAF2"
+			tasks: [{
+				id: "374E769DFAB7B3E0"
+				type: "item"
+				item: {
+					id: "industrialforegoing:infinity_backpack"
+					Count: 1b
+					tag: {
+						CanCharge: 1b
+						Special: 0b
+						Selected: "POOR"
+						Energy: 0L
+					}
+				}
+			}]
+			rewards: [{
+				id: "3D30EA0DEB0829D0"
+				type: "choice"
+				table_id: 1884421838687401553L
+			}]
+		}
+		{
+			x: -2.0d
+			y: 0.5d
+			dependencies: ["1B370EBE0823463F"]
+			id: "2B15E16B0349D303"
+			tasks: [{
+				id: "0DE616765713D828"
+				type: "item"
+				item: {
+					id: "industrialforegoing:mob_slaughter_factory"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "4D306092E01B5574"
+				type: "choice"
+				table_id: 6411501140632264875L
+			}]
+		}
+		{
+			x: -2.0d
+			y: -2.5d
+			dependencies: ["68734E3046A26B9C"]
+			id: "4B8915C41EF39F12"
+			tasks: [{
+				id: "7D1F3512274420BE"
+				type: "item"
+				item: {
+					id: "industrialforegoing:latex_processing_unit"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "787339222D0045CF"
+				type: "choice"
+				table_id: 6411501140632264875L
+			}]
+		}
+	]
+}

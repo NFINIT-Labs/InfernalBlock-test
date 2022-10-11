@@ -1,0 +1,399 @@
+{
+	id: "06D5649AD88F9834"
+	group: ""
+	order_index: 6
+	filename: "storage"
+	title: "Storage"
+	icon: {
+		id: "refinedstorage:crafter_manager"
+		Count: 1b
+		tag: { }
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Storage"
+			icon: {
+				id: "itemfilters:weak_nbt"
+				Count: 1b
+				tag: {
+					value: {
+						Damage: 0
+					}
+				}
+			}
+			x: 7.5d
+			y: 3.5d
+			subtitle: "To unlock this questline, first you have to unlock Nether Iron Ore"
+			description: [""]
+			dependencies: ["3C68E94F3DFFD370"]
+			dependency_requirement: "one_completed"
+			id: "04A4525E228C14E3"
+			tasks: [{
+				id: "0C1CBCA2494E904E"
+				type: "checkmark"
+				title: "Unlock Questline"
+			}]
+		}
+		{
+			title: "Refined Storage"
+			x: 4.5d
+			y: 5.0d
+			dependencies: ["4C107671A5163CF8"]
+			id: "121262CB9E810764"
+			tasks: [
+				{
+					id: "42BB3615E010EAF4"
+					type: "item"
+					item: {
+						id: "refinedstorage:controller"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "6E73BD745F7B7D47"
+					type: "item"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "refinedstorage:fluid_grid"
+									Count: 1b
+									tag: { }
+								}
+								{
+									id: "refinedstorage:pattern_grid"
+									Count: 1b
+									tag: { }
+								}
+								{
+									id: "refinedstorage:crafting_grid"
+									Count: 1b
+									tag: { }
+								}
+								{
+									id: "refinedstorage:grid"
+									Count: 1b
+									tag: { }
+								}
+							]
+						}
+					}
+				}
+				{
+					id: "0D377038E54C7EB4"
+					type: "item"
+					item: {
+						id: "refinedstorage:disk_drive"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
+			rewards: [{
+				id: "29C249E062829F6C"
+				type: "choice"
+				table_id: 6411501140632264875L
+			}]
+		}
+		{
+			title: "External Storage"
+			x: 4.5d
+			y: 6.5d
+			dependencies: ["121262CB9E810764"]
+			optional: true
+			id: "313DCEC27DAED582"
+			tasks: [
+				{
+					id: "5CD997EDC1BCF479"
+					type: "item"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "storagedrawers:controller"
+									Count: 1b
+									tag: { }
+								}
+								{
+									id: "storagedrawers:warped_full_drawers_2"
+									Count: 1b
+									tag: { }
+								}
+								{
+									id: "storagedrawers:dark_oak_full_drawers_2"
+									Count: 1b
+									tag: { }
+								}
+								{
+									id: "storagedrawers:crimson_full_drawers_2"
+									Count: 1b
+									tag: { }
+								}
+								{
+									id: "storagedrawers:acacia_full_drawers_2"
+									Count: 1b
+									tag: { }
+								}
+								{
+									id: "storagedrawers:jungle_full_drawers_2"
+									Count: 1b
+									tag: { }
+								}
+								{
+									id: "storagedrawers:birch_full_drawers_2"
+									Count: 1b
+									tag: { }
+								}
+								{
+									id: "storagedrawers:oak_full_drawers_2"
+									Count: 1b
+									tag: { }
+								}
+							]
+						}
+					}
+				}
+				{
+					id: "3C866522D44BE86A"
+					type: "item"
+					item: {
+						id: "refinedstorage:external_storage"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "1F5DB76044C03841"
+					type: "item"
+					item: {
+						id: "refinedstorage:cable"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
+			rewards: [{
+				id: "06ACA8B834850128"
+				type: "choice"
+				table_id: 6411501140632264875L
+			}]
+		}
+		{
+			x: 4.5d
+			y: 3.5d
+			dependencies: ["04A4525E228C14E3"]
+			id: "4C107671A5163CF8"
+			tasks: [{
+				id: "04253031B83A2DF0"
+				type: "item"
+				item: {
+					id: "refinedstorage:silicon"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "0BCB0C2702BE34F7"
+				type: "choice"
+				table_id: 3664273347422943692L
+			}]
+		}
+		{
+			x: 3.0d
+			y: 5.0d
+			dependencies: ["121262CB9E810764"]
+			id: "61B2819CDC0183E9"
+			tasks: [
+				{
+					id: "4A6F7720CBD39B2D"
+					type: "item"
+					item: {
+						id: "refinedstorage:1k_storage_part"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "6027174626041352"
+					type: "item"
+					item: {
+						id: "refinedstorage:1k_storage_disk"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
+			rewards: [{
+				id: "3EB87AEE851841D2"
+				type: "choice"
+				table_id: 6411501140632264875L
+			}]
+		}
+		{
+			title: "Sophisticated Storage"
+			x: 6.5d
+			y: 5.0d
+			dependencies: ["04A4525E228C14E3"]
+			id: "680F056629AF5513"
+			tasks: [{
+				id: "42D09D0A33875829"
+				type: "item"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "sophisticatedstorage:iron_chest"
+								Count: 1b
+								tag: {
+									woodType: "oak"
+								}
+							}
+							{
+								id: "sophisticatedstorage:iron_chest"
+								Count: 1b
+								tag: {
+									woodType: "spruce"
+								}
+							}
+							{
+								id: "sophisticatedstorage:iron_chest"
+								Count: 1b
+								tag: {
+									woodType: "jungle"
+								}
+							}
+							{
+								id: "sophisticatedstorage:iron_chest"
+								Count: 1b
+								tag: {
+									woodType: "birch"
+								}
+							}
+							{
+								id: "sophisticatedstorage:iron_chest"
+								Count: 1b
+								tag: {
+									woodType: "crimson"
+								}
+							}
+							{
+								id: "sophisticatedstorage:iron_chest"
+								Count: 1b
+								tag: {
+									woodType: "acacia"
+								}
+							}
+							{
+								id: "sophisticatedstorage:iron_chest"
+								Count: 1b
+								tag: {
+									woodType: "warped"
+								}
+							}
+							{
+								id: "sophisticatedstorage:iron_chest"
+								Count: 1b
+								tag: {
+									woodType: "dark_oak"
+								}
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "79E0D536FC31926D"
+				type: "choice"
+				table_id: 6411501140632264875L
+			}]
+		}
+		{
+			title: "Simple Storage"
+			x: 8.5d
+			y: 5.0d
+			dependencies: ["04A4525E228C14E3"]
+			id: "66B77871BBF9B3D6"
+			tasks: [
+				{
+					id: "7C306B8FBA1603C7"
+					type: "item"
+					item: {
+						id: "storagenetwork:master"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "0B933FB49DAEB7FF"
+					type: "item"
+					item: {
+						id: "storagenetwork:import_kabel"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "64FFA1952A16F2BF"
+					type: "item"
+					item: {
+						id: "storagenetwork:kabel"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "3F9CD6D0EF50F8F1"
+					type: "item"
+					item: {
+						id: "storagenetwork:storage_kabel"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "60316F593C8E91A6"
+					type: "item"
+					item: {
+						id: "storagenetwork:request"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
+			rewards: [{
+				id: "2C67EC43585E1DC8"
+				type: "choice"
+				table_id: 6411501140632264875L
+			}]
+		}
+		{
+			x: 7.5d
+			y: 5.5d
+			dependencies: ["04A4525E228C14E3"]
+			id: "00C36B9586384E67"
+			tasks: [{
+				id: "30E76471898F1E62"
+				type: "item"
+				item: {
+					id: "sophisticatedbackpacks:backpack"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "67A699E057EFF885"
+				type: "choice"
+				table_id: 6411501140632264875L
+			}]
+		}
+	]
+}

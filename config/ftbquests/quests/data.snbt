@@ -7,10 +7,10 @@
 	default_quest_shape: "circle"
 	default_quest_disable_jei: false
 	emergency_items_cooldown: 300
-	drop_loot_crates: true
+	drop_loot_crates: false
 	loot_crate_no_drop: {
 		passive: 0
-		monster: 80
+		monster: 300
 		boss: 0
 	}
 	disable_gui: false

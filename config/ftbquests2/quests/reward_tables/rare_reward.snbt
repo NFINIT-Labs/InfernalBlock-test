@@ -1,0 +1,44 @@
+{
+	id: "03F72FD57701F284"
+	order_index: 7
+	title: "Rare Reward"
+	loot_size: 1
+	rewards: [
+		{
+			item: {
+				id: "ftbquests:lootcrate"
+				Count: 1b
+				tag: {
+					type: "common_crate"
+				}
+			}
+		}
+		{
+			item: {
+				id: "ftbquests:lootcrate"
+				Count: 1b
+				tag: {
+					type: "rare"
+				}
+			}
+		}
+		{
+			item: {
+				id: "ftbquests:lootcrate"
+				Count: 1b
+				tag: {
+					type: "food_crate"
+				}
+			}
+		}
+		{
+			item: {
+				id: "ftbquests:lootcrate"
+				Count: 1b
+				tag: {
+					type: "anti_fire_crate"
+				}
+			}
+		}
+	]
+}

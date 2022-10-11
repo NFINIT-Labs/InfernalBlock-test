@@ -1,9 +1,9 @@
 {
 	id: "65F704DA0C727518"
-	group: "53C90A756B092318"
+	group: ""
 	order_index: 0
 	filename: "surviving"
-	title: "Surviving"
+	title: "The Nether"
 	icon: "minecraft:netherrack"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -12,7 +12,12 @@
 			title: "Netherrack"
 			x: -4.0d
 			y: -0.5d
-			description: ["Break netherrack (with empty hand)"]
+			description: [
+				"Collect Netherrack."
+				""
+				""
+				"You can break netherrack with an empty hand."
+			]
 			dependencies: ["14DC7567F6A03ADA"]
 			id: "22FB9E74AA26BC75"
 			tasks: [{
@@ -36,17 +41,19 @@
 						Count: 1b
 						tag: { }
 					}
-					count: 16
+					count: 32
 				}
 			]
 		}
 		{
 			x: -5.5d
 			y: -0.5d
+			description: ["The overworld has been destroyed, there is only so few survivors left. After the attack of the great one we had fled to the nether for a safe haven. This hellish landscape is the only \"safest\" place we have. but heres fire and demons everwhere. This place is a sort of...Infernal Refuge"]
 			id: "14DC7567F6A03ADA"
 			tasks: [{
 				id: "7352D1CCEAA7ABCE"
 				type: "dimension"
+				title: "Welcome to The Nether"
 				dimension: "minecraft:the_nether"
 			}]
 			rewards: [{
@@ -64,6 +71,7 @@
 			title: "Cobblestone"
 			x: -2.5d
 			y: -0.5d
+			description: ["You can craft cobblestone with netherrack."]
 			dependencies: ["22FB9E74AA26BC75"]
 			id: "6B21DA1B6625388D"
 			tasks: [{
@@ -81,6 +89,7 @@
 		{
 			x: -1.0d
 			y: -0.5d
+			description: ["Craft the stone version of the crafting table."]
 			dependencies: ["6B21DA1B6625388D"]
 			id: "77B7A18537A25836"
 			tasks: [{
@@ -127,7 +136,7 @@
 			}]
 		}
 		{
-			x: 0.5d
+			x: 1.0d
 			y: -0.5d
 			dependencies: ["77B7A18537A25836"]
 			id: "4022C4E4CE700488"
@@ -150,10 +159,19 @@
 		}
 		{
 			title: "Nether Iron Ore"
-			x: 2.0d
+			icon: {
+				id: "modernnetherores:nether_iron_ore"
+				Count: 1b
+				tag: { }
+			}
+			x: 3.0d
 			y: -0.5d
 			subtitle: "Nether Ores"
-			description: ["Look for ores in the nether"]
+			description: [
+				"Look for ores in the nether"
+				""
+				"Nether Ores can generate at any Y level, Nether Iron Ore is the most common ore."
+			]
 			dependencies: ["4022C4E4CE700488"]
 			id: "3C68E94F3DFFD370"
 			tasks: [{
@@ -214,12 +232,29 @@
 					}
 					count: 2
 				}
+				{
+					id: "516ACF233FEE9039"
+					type: "item"
+					item: {
+						id: "cyclic:charm_home"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
 			]
 		}
 		{
-			title: "Nether Ores"
-			x: 2.0d
+			title: "Nether Ores [Gems]"
+			icon: {
+				id: "modernnetherores:nether_diamond_ore"
+				Count: 1b
+				tag: { }
+			}
+			x: 3.0d
 			y: -1.5d
+			description: ["Nether Ores generate naturally in the nether at any high."]
 			dependencies: ["3C68E94F3DFFD370"]
 			id: "06E64A7D4AF4FE60"
 			tasks: [
@@ -282,29 +317,6 @@
 								}
 								{
 									id: "minecraft:lapis_lazuli"
-									Count: 1b
-									tag: { }
-								}
-							]
-						}
-					}
-				}
-				{
-					id: "448F7679D7900AAB"
-					type: "item"
-					title: "Nether Gold Ore"
-					item: {
-						id: "itemfilters:or"
-						Count: 1b
-						tag: {
-							items: [
-								{
-									id: "minecraft:nether_gold_ore"
-									Count: 1b
-									tag: { }
-								}
-								{
-									id: "minecraft:raw_gold"
 									Count: 1b
 									tag: { }
 								}
@@ -411,210 +423,18 @@
 						}
 					}
 				}
-				{
-					id: "7E0FC5DC0A8147F3"
-					type: "item"
-					title: "Nether Copper Ore"
-					item: {
-						id: "itemfilters:or"
-						Count: 1b
-						tag: {
-							items: [
-								{
-									id: "modernnetherores:nether_copper_ore"
-									Count: 1b
-									tag: { }
-								}
-								{
-									id: "modernnetherores:nether_copper_ore_basalt"
-									Count: 1b
-									tag: { }
-								}
-								{
-									id: "modernnetherores:nether_copper_ore_blackstone"
-									Count: 1b
-									tag: { }
-								}
-								{
-									id: "minecraft:raw_copper"
-									Count: 1b
-									tag: { }
-								}
-							]
-						}
-					}
-				}
 			]
 			rewards: [{
-				id: "1D67CCA93118460D"
+				id: "077A156EFA079E61"
 				type: "choice"
-				table_id: 4249831328963482454L
+				table_id: 285749695232471684L
 			}]
 		}
 		{
-			title: "Modded Nether Ores"
-			x: 2.0d
-			y: 0.5d
-			dependencies: ["3C68E94F3DFFD370"]
-			id: "01CA6CB1AE605260"
-			tasks: [
-				{
-					id: "3E3FD52720350DE8"
-					type: "item"
-					title: "Nether Silver Ore"
-					item: {
-						id: "itemfilters:or"
-						Count: 1b
-						tag: {
-							items: [
-								{
-									id: "bno:nether_silver_ore"
-									Count: 1b
-								}
-								{
-									id: "bno:raw_silver"
-									Count: 1b
-								}
-							]
-						}
-					}
-				}
-				{
-					id: "668A23967A95BAE9"
-					type: "item"
-					title: "Nether Lead Ore"
-					item: {
-						id: "itemfilters:or"
-						Count: 1b
-						tag: {
-							items: [
-								{
-									id: "bno:nether_lead_ore"
-									Count: 1b
-								}
-								{
-									id: "bno:raw_lead"
-									Count: 1b
-								}
-							]
-						}
-					}
-				}
-				{
-					id: "38B6410C637CC058"
-					type: "item"
-					title: "Nether Nickel Ore"
-					item: {
-						id: "itemfilters:or"
-						Count: 1b
-						tag: {
-							items: [
-								{
-									id: "bno:nether_nickel_ore"
-									Count: 1b
-								}
-								{
-									id: "bno:raw_nickel"
-									Count: 1b
-								}
-							]
-						}
-					}
-				}
-				{
-					id: "0B5E943987C6451B"
-					type: "item"
-					title: "Nether Aluminum Ore"
-					item: {
-						id: "itemfilters:or"
-						Count: 1b
-						tag: {
-							items: [
-								{
-									id: "bno:nether_aluminum_ore"
-									Count: 1b
-								}
-								{
-									id: "bno:raw_aluminum"
-									Count: 1b
-								}
-							]
-						}
-					}
-				}
-				{
-					id: "4EEE30BBA6461CCD"
-					type: "item"
-					title: "Nether Tin Ore"
-					item: {
-						id: "itemfilters:or"
-						Count: 1b
-						tag: {
-							items: [
-								{
-									id: "bno:raw_tin"
-									Count: 1b
-								}
-								{
-									id: "bno:nether_tin_ore"
-									Count: 1b
-								}
-							]
-						}
-					}
-				}
-				{
-					id: "00FBF0E784DA9463"
-					type: "item"
-					title: "Nether Osmium Ore"
-					item: {
-						id: "itemfilters:or"
-						Count: 1b
-						tag: {
-							items: [
-								{
-									id: "bno:raw_osmium"
-									Count: 1b
-								}
-								{
-									id: "bno:nether_osmium_ore"
-									Count: 1b
-								}
-							]
-						}
-					}
-				}
-				{
-					id: "235954EDDA788CAB"
-					type: "item"
-					title: "Nether Uranium Ore"
-					item: {
-						id: "itemfilters:or"
-						Count: 1b
-						tag: {
-							items: [
-								{
-									id: "bno:raw_uranium"
-									Count: 1b
-								}
-								{
-									id: "bno:nether_uranium_ore"
-									Count: 1b
-								}
-							]
-						}
-					}
-				}
-			]
-			rewards: [{
-				id: "15241F8C7BEFA0BF"
-				type: "choice"
-				table_id: 4249831328963482454L
-			}]
-		}
-		{
-			x: 5.0d
+			title: "Lava"
+			x: 6.0d
 			y: -0.5d
+			description: ["Collect lava from the lava lakes."]
 			dependencies: ["3C68E94F3DFFD370"]
 			id: "2DA4D38D49359F61"
 			tasks: [{
@@ -633,8 +453,9 @@
 			}]
 		}
 		{
-			x: 3.5d
+			x: 4.5d
 			y: -0.5d
+			description: ["A better version of the furnace that can be upgrade with many features."]
 			dependencies: ["3C68E94F3DFFD370"]
 			id: "24D886DC85EE7BEA"
 			tasks: [{
@@ -647,13 +468,13 @@
 				}
 			}]
 			rewards: [{
-				id: "51944081B0EFC164"
+				id: "7EA0EF3AD0FBE8F3"
 				type: "choice"
-				table_id: 4249831328963482454L
+				table_id: 285749695232471684L
 			}]
 		}
 		{
-			x: 9.5d
+			x: 10.5d
 			y: -0.5d
 			dependencies: ["446079C04C44DCE0"]
 			id: "10E00BEFC02CE0B8"
@@ -667,14 +488,14 @@
 				}
 			}]
 			rewards: [{
-				id: "0E83D02F0D80FE9B"
+				id: "544D488099ED940B"
 				type: "choice"
-				table_id: 4249831328963482454L
+				table_id: 3664273347422943692L
 			}]
 		}
 		{
-			x: 11.0d
-			y: -0.5d
+			x: 12.0d
+			y: 0.5d
 			dependencies: ["10E00BEFC02CE0B8"]
 			id: "566B006CDDDC0601"
 			tasks: [{
@@ -687,53 +508,66 @@
 				}
 			}]
 			rewards: [{
-				id: "28845C28BA190D56"
+				id: "0BCB92B8CD2589C1"
 				type: "choice"
-				table_id: 4249831328963482454L
+				table_id: 6411501140632264875L
 			}]
 		}
 		{
 			title: "Wooden Crucible"
-			x: 8.0d
+			icon: {
+				id: "exnihilosequentia:crimson_crucible"
+				Count: 1b
+				tag: { }
+			}
+			x: 9.0d
 			y: -0.5d
+			description: [
+				"Crucibles can be used to melt down leaves into water"
+				""
+				"Notes:"
+				"Warped and Crimsom Crucibles require a heat source below it."
+				""
+				"Heat Sources can be torches and lava"
+			]
 			dependencies: ["256BD9FF2E63977D"]
 			id: "446079C04C44DCE0"
 			tasks: [{
-				id: "043ED73BDA988DBB"
+				id: "505E3D9F482DAB23"
 				type: "item"
-				title: "Wooden Crucible"
+				title: "Wooden Crucibles"
 				item: {
 					id: "itemfilters:or"
 					Count: 1b
 					tag: {
 						items: [
 							{
-								id: "exnihilosequentia:acacia_crucible"
+								id: "excompressum:oak_crucible"
 								Count: 1b
 								tag: { }
 							}
 							{
-								id: "exnihilosequentia:birch_crucible"
+								id: "excompressum:spruce_crucible"
 								Count: 1b
 								tag: { }
 							}
 							{
-								id: "exnihilosequentia:dark_oak_crucible"
+								id: "excompressum:birch_crucible"
 								Count: 1b
 								tag: { }
 							}
 							{
-								id: "exnihilosequentia:jungle_crucible"
+								id: "excompressum:jungle_crucible"
 								Count: 1b
 								tag: { }
 							}
 							{
-								id: "exnihilosequentia:oak_crucible"
+								id: "excompressum:acacia_crucible"
 								Count: 1b
 								tag: { }
 							}
 							{
-								id: "exnihilosequentia:spruce_crucible"
+								id: "excompressum:dark_oak_crucible"
 								Count: 1b
 								tag: { }
 							}
@@ -752,13 +586,20 @@
 				}
 			}]
 			rewards: [{
-				id: "25E6357A9948E29B"
+				id: "2FFE9A44AEFCBF94"
 				type: "choice"
-				table_id: 4249831328963482454L
+				table_id: 3664273347422943692L
 			}]
 		}
 		{
-			x: 0.5d
+			icon: {
+				id: "exnihilosequentia:stone_hammer"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 0.0d
 			y: -1.5d
 			dependencies: ["4022C4E4CE700488"]
 			id: "27D349808C36728C"
@@ -809,8 +650,14 @@
 			}]
 		}
 		{
-			x: 6.5d
+			x: 7.5d
 			y: -0.5d
+			description: [
+				"The Stone Barrel can be used to tranform liquids into blocks."
+				""
+				"Tranfomation Examples:"
+				"Netherrack into Crimsom Stem"
+			]
 			dependencies: ["2DA4D38D49359F61"]
 			id: "256BD9FF2E63977D"
 			tasks: [{
@@ -829,7 +676,7 @@
 			}]
 		}
 		{
-			x: 0.5d
+			x: 0.0d
 			y: 0.5d
 			dependencies: ["4022C4E4CE700488"]
 			id: "56DB359E84E3408B"
@@ -851,69 +698,95 @@
 			}]
 		}
 		{
-			x: 6.5d
+			x: 7.5d
 			y: -1.5d
+			description: ["You can get dirt by composting plants and leaves on the barrel."]
 			dependencies: ["256BD9FF2E63977D"]
 			id: "19D5E6F96506A87B"
-			tasks: [{
-				id: "03955D42B1DE0796"
-				type: "item"
-				item: {
-					id: "minecraft:dirt"
-					Count: 1b
-					tag: { }
-				}
-			}]
-			rewards: [{
-				id: "1851F3E7D3FF40D4"
-				type: "choice"
-				table_id: 4249831328963482454L
-			}]
-		}
-		{
-			x: 6.5d
-			y: 0.5d
-			dependencies: ["256BD9FF2E63977D"]
-			id: "198CC01730E8C093"
 			tasks: [
 				{
-					id: "60B2D12510F824A8"
+					id: "03955D42B1DE0796"
 					type: "item"
 					item: {
-						id: "biomesoplenty:hellbark_log"
+						id: "minecraft:dirt"
 						Count: 1b
 						tag: { }
 					}
 				}
 				{
-					id: "55D22F16B2E09A36"
+					id: "6D1F89FD70E00E37"
 					type: "item"
 					item: {
-						id: "minecraft:crimson_stem"
-						Count: 1b
-						tag: { }
-					}
-				}
-				{
-					id: "5EEEDD48E7DCC4F7"
-					type: "item"
-					item: {
-						id: "minecraft:oak_log"
+						id: "cyclic:soil"
 						Count: 1b
 						tag: { }
 					}
 				}
 			]
 			rewards: [{
-				id: "7E5078B1D5FB4C46"
+				id: "022E5B14357FDF24"
 				type: "choice"
-				table_id: 4249831328963482454L
+				table_id: 3664273347422943692L
 			}]
 		}
 		{
-			x: 9.5d
+			title: "Wood"
+			icon: {
+				id: "minecraft:crimson_stem"
+				Count: 1b
+				tag: { }
+			}
+			x: 7.5d
+			y: 0.5d
+			description: ["You can get wood by transforming liquids into wood blocks."]
+			dependencies: ["256BD9FF2E63977D"]
+			id: "198CC01730E8C093"
+			tasks: [{
+				id: "271E109E3272FD66"
+				type: "item"
+				title: "Wood"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "minecraft:oak_log"
+								Count: 1b
+								tag: { }
+							}
+							{
+								id: "biomesoplenty:hellbark_log"
+								Count: 1b
+								tag: { }
+							}
+							{
+								id: "minecraft:crimson_stem"
+								Count: 1b
+								tag: { }
+							}
+							{
+								id: "minecraft:warped_stem"
+								Count: 1b
+								tag: { }
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "585CBE5E4AD040BC"
+				type: "choice"
+				table_id: 3664273347422943692L
+			}]
+		}
+		{
+			x: 9.0d
 			y: -1.5d
-			dependencies: ["10E00BEFC02CE0B8"]
+			dependencies: [
+				"10E00BEFC02CE0B8"
+				"256BD9FF2E63977D"
+			]
 			id: "1E9799437E62D946"
 			tasks: [{
 				id: "40C4ED0F887EBE80"
@@ -925,14 +798,15 @@
 				}
 			}]
 			rewards: [{
-				id: "22FD500A00B19026"
+				id: "75A367F1663C9B22"
 				type: "choice"
-				table_id: 4249831328963482454L
+				table_id: 3664273347422943692L
 			}]
 		}
 		{
-			x: 3.5d
+			x: 4.5d
 			y: -1.5d
+			description: ["An upgrade that makes the furnace double the output when processing raw ores."]
 			dependencies: ["24D886DC85EE7BEA"]
 			id: "75ECD7DEA4CB6E3A"
 			tasks: [{
@@ -945,7 +819,304 @@
 				}
 			}]
 			rewards: [{
-				id: "31FE11247B156B1E"
+				id: "68A11114C5EEB32D"
+				type: "choice"
+				table_id: 285749695232471684L
+			}]
+		}
+		{
+			icon: {
+				id: "woodarmor:stone_chestplate"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -1.0d
+			y: -1.5d
+			dependencies: ["77B7A18537A25836"]
+			id: "7BBABBDC4E8FFA94"
+			tasks: [
+				{
+					id: "514022FFE913B7EC"
+					type: "item"
+					item: {
+						id: "woodarmor:stone_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "191E878287F2C889"
+					type: "item"
+					item: {
+						id: "woodarmor:stone_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "12E62EFA39531771"
+					type: "item"
+					item: {
+						id: "woodarmor:stone_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0A636C475D9BE174"
+					type: "item"
+					item: {
+						id: "woodarmor:stone_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "3377B36DD0022A4E"
+				type: "choice"
+				table_id: 4249831328963482454L
+			}]
+		}
+		{
+			x: 9.0d
+			y: 0.5d
+			dependencies: [
+				"10E00BEFC02CE0B8"
+				"256BD9FF2E63977D"
+			]
+			id: "23CB52F02548777B"
+			tasks: [{
+				id: "00CBD47AB72B279B"
+				type: "item"
+				item: {
+					id: "bonsaitrees3:bonsaipot"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "09552EDF293EBF47"
+				type: "choice"
+				table_id: 6411501140632264875L
+			}]
+		}
+		{
+			x: 4.5d
+			y: 0.5d
+			dependencies: ["24D886DC85EE7BEA"]
+			id: "0C94731A99B13435"
+			tasks: [{
+				id: "4C2ACEAFE9D93ED7"
+				type: "item"
+				item: {
+					id: "betterfurnacesreforged:fuel_efficiency_upgrade"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "452DB00998CDAD9E"
+				type: "choice"
+				table_id: 4249831328963482454L
+			}]
+		}
+		{
+			icon: {
+				id: "exnihilosequentia:stone_crook"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -1.0d
+			y: 0.5d
+			dependencies: ["77B7A18537A25836"]
+			id: "4675FBB4FCC526EB"
+			tasks: [
+				{
+					id: "578F61963FF51F56"
+					type: "item"
+					item: {
+						id: "exnihilosequentia:stone_crook"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "022663B6BB992351"
+					type: "item"
+					item: {
+						id: "exnihilosequentia:silkworm"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "4EB5E4837491482E"
+					type: "item"
+					item: {
+						id: "minecraft:string"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
+			rewards: [{
+				id: "68891300DA87E7DA"
+				type: "choice"
+				table_id: 4249831328963482454L
+			}]
+		}
+		{
+			x: 12.0d
+			y: -1.5d
+			dependencies: ["10E00BEFC02CE0B8"]
+			id: "4E916069C646103D"
+			tasks: [{
+				id: "7A01B07C87D9C126"
+				type: "item"
+				item: {
+					id: "minecraft:obsidian"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "4DABAB1EB9C4866F"
+				type: "choice"
+				table_id: 6411501140632264875L
+			}]
+		}
+		{
+			x: 2.0d
+			y: -1.5d
+			dependencies: ["4022C4E4CE700488"]
+			id: "696F34599258210A"
+			tasks: [{
+				id: "0CDB80C44C71E8EF"
+				type: "item"
+				item: {
+					id: "assortedtools:stone_multitool"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "0046A3171305025A"
+				type: "choice"
+				table_id: 4249831328963482454L
+			}]
+		}
+		{
+			x: 2.0d
+			y: 0.5d
+			dependencies: ["4022C4E4CE700488"]
+			id: "0CDD9198390C6A11"
+			tasks: [{
+				id: "762A90F7130CCB58"
+				type: "item"
+				item: {
+					id: "pickletweaks:stone_paxel"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "2FB8525E0ACC17B6"
+				type: "choice"
+				table_id: 4249831328963482454L
+			}]
+		}
+		{
+			title: "Nether Ores [Metals]"
+			icon: {
+				id: "minecraft:nether_gold_ore"
+				Count: 1b
+				tag: { }
+			}
+			x: 3.0d
+			y: 0.5d
+			dependencies: ["3C68E94F3DFFD370"]
+			id: "0E95AA31CD2C0048"
+			tasks: [
+				{
+					id: "766FC0076AD2FC9A"
+					type: "item"
+					title: "Nether Gold Ore"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "minecraft:nether_gold_ore"
+									Count: 1b
+									tag: { }
+								}
+								{
+									id: "minecraft:raw_gold"
+									Count: 1b
+									tag: { }
+								}
+							]
+						}
+					}
+				}
+				{
+					id: "0915E1A26045DB76"
+					type: "item"
+					title: "Nether Copper Ore"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "modernnetherores:nether_copper_ore"
+									Count: 1b
+									tag: { }
+								}
+								{
+									id: "modernnetherores:nether_copper_ore_basalt"
+									Count: 1b
+									tag: { }
+								}
+								{
+									id: "modernnetherores:nether_copper_ore_blackstone"
+									Count: 1b
+									tag: { }
+								}
+								{
+									id: "minecraft:raw_copper"
+									Count: 1b
+									tag: { }
+								}
+							]
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "1634C9105151E375"
 				type: "choice"
 				table_id: 4249831328963482454L
 			}]

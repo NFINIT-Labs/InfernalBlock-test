@@ -67,7 +67,7 @@
 			passive: 0
 			monster: 0
 		}
-		color: 16777215
+		color: 16567040
 		item_name: "Anti-Fire Crate"
 		string_id: "anti_fire_crate"
 	}

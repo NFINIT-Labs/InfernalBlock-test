@@ -331,51 +331,6 @@
 						tag: { }
 					}
 				}
-				{
-					id: "3FEB8E6A01228B43"
-					type: "item"
-					item: {
-						id: "minecraft:spider_eye"
-						Count: 1b
-						tag: { }
-					}
-				}
-				{
-					id: "603E9B5503D72972"
-					type: "item"
-					item: {
-						id: "minecraft:slime_ball"
-						Count: 1b
-						tag: { }
-					}
-				}
-				{
-					id: "06E2251FC9244028"
-					type: "item"
-					item: {
-						id: "minecraft:lily_pad"
-						Count: 1b
-						tag: { }
-					}
-				}
-				{
-					id: "3D48BAD2BF7067A6"
-					type: "item"
-					item: {
-						id: "minecraft:vine"
-						Count: 1b
-						tag: { }
-					}
-				}
-				{
-					id: "66824627BA94CF35"
-					type: "item"
-					item: {
-						id: "minecraft:sugar_cane"
-						Count: 1b
-						tag: { }
-					}
-				}
 			]
 			rewards: [{
 				id: "445498BACAA4F676"

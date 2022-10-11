@@ -13,13 +13,6 @@ onEvent('worldgen.remove', event => {
   })
 })
 
-
-//Items Registry
-onEvent('item.registry', event => {
-
-})
-
-
 //Blocks Modify
 onEvent('block.modification', event => {
     event.modify('minecraft:netherrack', block => {
@@ -29,14 +22,10 @@ onEvent('block.modification', event => {
     })
 })
 
-//Items Modify
-onEvent('item.modification', event => {
-})
-
-// Item Tags
 onEvent('tags.items', event => {
-  event.add('#forge:rods', 'stoneutilities:stone_stick')
-  event.add('#forge:rods/wooden', 'stoneutilities:stone_stick')
+  // Get the #forge:cobblestone tag collection and add Diamond Ore to it
+  event.add('forge:rods', 'stoneutilities:stone_stick')
+  event.add('forge:rods/wooden', 'stoneutilities:stone_stick')
+
   
 })
-

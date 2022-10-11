@@ -81,14 +81,6 @@
 		}
 		{
 			item: {
-				id: "ae2:silicon"
-				Count: 1b
-				tag: { }
-			}
-			count: 4
-		}
-		{
-			item: {
 				id: "assortedtools:wood_shears"
 				Count: 1b
 				tag: {
@@ -163,35 +155,6 @@
 				tag: {
 					Damage: 0
 				}
-			}
-		}
-		{
-			item: {
-				id: "ae2:certus_quartz_dust"
-				Count: 1b
-				tag: { }
-			}
-			count: 4
-		}
-		{
-			item: {
-				id: "coldsgrappler:rope_light_item"
-				Count: 1b
-				tag: { }
-			}
-		}
-		{
-			item: {
-				id: "coldsgrappler:grappler_item"
-				Count: 1b
-				tag: { }
-			}
-		}
-		{
-			item: {
-				id: "coldsgrappler:extra_rope_item"
-				Count: 1b
-				tag: { }
 			}
 		}
 		{
@@ -352,14 +315,6 @@
 				Count: 1b
 				tag: { }
 			}
-		}
-		{
-			item: {
-				id: "ae2:sky_dust"
-				Count: 1b
-				tag: { }
-			}
-			count: 4
 		}
 		{
 			item: {
@@ -628,12 +583,585 @@
 			}
 			count: 4
 		}
+		{
+			item: {
+				id: "exnihilosequentia:andesite_crook"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "exnihilosequentia:bone_crook"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "exnihilosequentia:stone_crook"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "exnihilosequentia:wooden_crook"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "exnihilosequentia:iron_crook"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "exnihilosequentia:granite_crook"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "exnihilosequentia:diorite_crook"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "doom:powersphere"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "doom:megasphere"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "doom:invisiblesphere"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "doom:inmortalsphere"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "exnihilosequentia:silkworm"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "minecraft:dark_oak_sapling"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "minecraft:spruce_sapling"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "minecraft:oak_sapling"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "assortedtools:stone_bucket"
+				Count: 1b
+				tag: {
+					Fluid: {
+						Amount: 0
+					}
+				}
+			}
+		}
+		{
+			item: {
+				id: "assortedtools:wood_bucket"
+				Count: 1b
+				tag: {
+					Fluid: {
+						Amount: 0
+					}
+				}
+			}
+		}
+		{
+			item: {
+				id: "reliquary:pedestals/passive/white_passive_pedestal"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "constructionwand:iron_wand"
+				Count: 1b
+				tag: {
+					wand_options: { }
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "constructionwand:stone_wand"
+				Count: 1b
+				tag: {
+					wand_options: { }
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:feather"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "minecraft:gunpowder"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "minecraft:grass_block"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "mannequins:statue"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "mannequins:mannequin"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "variant_crafting_tables:quark_blossom_crafting_table"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "variant_crafting_tables:quark_azalea_crafting_table"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "uc:compressed_coal"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "uc:compressed_emerald_gem"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "uc:compressed_stick"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "variant_crafting_tables:bop_palm_crafting_table"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "uc:compressed_iron_ingot"
+				Count: 1b
+				tag: { }
+			}
+			count: 2
+		}
+		{
+			item: {
+				id: "variant_crafting_tables:birch_crafting_table"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "uc:compressed_copper_ingot"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "uc:compressed_redstone"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "uc:compressed_raw_gold"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "uc:compressed_gold_ingot"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "uc:compressed_diamond_gem"
+				Count: 1b
+				tag: { }
+			}
+			count: 2
+		}
+		{
+			item: {
+				id: "minecraft:leather"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "variant_crafting_tables:bop_jacaranda_crafting_table"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "variant_crafting_tables:bop_redwood_crafting_table"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "variant_crafting_tables:bop_willow_crafting_table"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "variant_crafting_tables:jungle_crafting_table"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "variant_crafting_tables:bop_mahogany_crafting_table"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "variant_crafting_tables:bop_cherry_crafting_table"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "variant_crafting_tables:bop_fir_crafting_table"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "variant_crafting_tables:bop_hellbark_crafting_table"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "variant_crafting_tables:bop_magic_crafting_table"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "cyclic:crafting_stick"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "variant_crafting_tables:spruce_crafting_table"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "variant_crafting_tables:acacia_crafting_table"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "variant_crafting_tables:crimson_crafting_table"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "variant_crafting_tables:warped_crafting_table"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "cyclic:shears_obsidian"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "elevatorid:elevator_white"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "elevatorid:elevator_lime"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "elevatorid:elevator_light_blue"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "mekanism:dictionary"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "bhc:red_heart"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "bhc:wither_bone"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "cookingforblockheads:oven"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "minecraft:ender_pearl"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "uc:compressed_raw_copper"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "variant_crafting_tables:bop_umbran_crafting_table"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "variant_crafting_tables:bop_dead_crafting_table"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "cyclic:ender_pearl_mounted"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "cyclic:ender_pearl_reuse"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "cyclic:experience_pylon"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "tombstone:bag_of_seeds"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "uc:compressed_lapis"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "assortedcore:ruby"
+				Count: 1b
+				tag: { }
+			}
+			count: 4
+		}
+		{
+			item: {
+				id: "assortedcore:peridot"
+				Count: 1b
+				tag: { }
+			}
+			count: 4
+		}
+		{
+			item: {
+				id: "assortedcore:sapphire"
+				Count: 1b
+				tag: { }
+			}
+			count: 4
+		}
+		{
+			item: {
+				id: "assortedcore:topaz"
+				Count: 1b
+				tag: { }
+			}
+			count: 4
+		}
+		{
+			item: {
+				id: "minecraft:spider_eye"
+				Count: 1b
+				tag: { }
+			}
+			count: 4
+		}
+		{
+			item: {
+				id: "minecraft:totem_of_undying"
+				Count: 1b
+				tag: { }
+			}
+		}
 	]
 	loot_crate: {
 		drops: {
 			boss: 0
-			passive: 350
-			monster: 10
+			passive: 0
+			monster: 80
 		}
 		color: 9607578
 		item_name: "Common Crate"

@@ -512,6 +512,12 @@ assortedcore:ore_ruby
 assortedcore:ore_sapphire
 assortedcore:ore_topaz
 assortedcore:ore_peridot
+minecraft:arid_garden
+minecraft:frost_garden
+minecraft:shaded_garden
+minecraft:soggy_garden
+minecraft:tropical_garden
+minecraft:windy_garden
 minecraft:nether_iron_ore
 minecraft:nether_copper_ore
 minecraft:nether_lapis_ore
@@ -568,16 +574,9 @@ minecraft:hazelnut_worldgen
 minecraft:pawpaw_worldgen
 minecraft:soursop_worldgen
 minecraft:spiderweb_worldgen
-minecraft:arid_garden
-minecraft:frost_garden
-minecraft:shaded_garden
-minecraft:soggy_garden
-minecraft:tropical_garden
-minecraft:windy_garden
 cyclic:flower_cyan
 cyclic:flower_tulip
 cyclic:flower_lime
-nethersdelight:patch_propelplant_cane
 minecraft:wrappist_geode
 minecraft:glowstone_geode
 minecraft:basalt_glowstone_geode
@@ -585,6 +584,7 @@ minecraft:blackstone_glowstone_geode
 minecraft:quartz_geode
 minecraft:basalt_quartz_geode
 minecraft:blackstone_quartz_geode
+nethersdelight:patch_propelplant_cane
 minecraft:nether_flesh_quartz_geode
 minecraft:nether_brimstone_quartz_geode
 minecraft:nether_rose_quartz_geode

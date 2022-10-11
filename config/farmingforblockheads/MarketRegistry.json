@@ -24,6 +24,12 @@
       "icon": {
         "item": "nethersdelight:plate_of_stuffed_hoglin_ham"
       }
+    },
+      "other_stuff": {
+      "name": "Misc",
+      "icon": {
+        "item": "nethersdelight:plate_of_stuffed_hoglin_ham"
+      }
     }
   },
   "customEntries": [
@@ -85,6 +91,66 @@
         "count": 3
       },
       "category": "food_stuff"
+    },
+        {
+      "output": {
+        "item": "minecraft:slime_ball"
+      },
+      "payment": {
+        "item": "doom:argent_energy",
+        "count": 1
+      },
+      "category": "other_stuff"
+    },
+      {
+      "output": {
+        "item": "minecraft:sugar_cane"
+      },
+      "payment": {
+        "item": "doom:argent_energy",
+        "count": 1
+      },
+      "category": "other_stuff"
+    },
+          {
+      "output": {
+        "item": "minecraft:spider_eye"
+      },
+      "payment": {
+        "item": "doom:argent_energy",
+        "count": 1
+      },
+      "category": "other_stuff"
+    },
+      {
+      "output": {
+        "item": "minecraft:lily_pad"
+      },
+      "payment": {
+        "item": "doom:argent_energy",
+        "count": 1
+      },
+      "category": "other_stuff"
+    },
+          {
+      "output": {
+        "item": "minecraft:vine"
+      },
+      "payment": {
+        "item": "doom:argent_energy",
+        "count": 1
+      },
+      "category": "other_stuff"
+    },
+              {
+      "output": {
+        "item": "minecraft:string"
+      },
+      "payment": {
+        "item": "doom:argent_energy",
+        "count": 1
+      },
+      "category": "other_stuff"
     }
   ]
 }

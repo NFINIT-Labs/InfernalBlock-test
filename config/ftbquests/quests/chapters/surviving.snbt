@@ -71,6 +71,7 @@
 			title: "Cobblestone"
 			x: -2.5d
 			y: -0.5d
+			description: ["You can craft cobblestone with netherrack."]
 			dependencies: ["22FB9E74AA26BC75"]
 			id: "6B21DA1B6625388D"
 			tasks: [{
@@ -88,7 +89,7 @@
 		{
 			x: -1.0d
 			y: -0.5d
-			description: ["Craft a stone version of the crafting table."]
+			description: ["Craft the stone version of the crafting table."]
 			dependencies: ["6B21DA1B6625388D"]
 			id: "77B7A18537A25836"
 			tasks: [{

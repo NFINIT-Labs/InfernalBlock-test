@@ -14,7 +14,7 @@
 		coalGeoreMaxY = 35
 		#Coal GeOre Rarity [Default: 60] (The higher the value the rarer)
 		#Range: > 0
-		coalGeoreRarity = 100
+		coalGeoreRarity = 120
 		#Biomes that have any of these Biome Dictionary Tags will be able to generate Coal GeOre [Default: OVERWORLD]
 		coalGeoreDictionaryTypes = ["NETHER"]
 
@@ -30,7 +30,7 @@
 		copperGeoreMaxY = 35
 		#Copper GeOre Rarity [Default: 90] (The higher the value the rarer)
 		#Range: > 0
-		copperGeoreRarity = 120
+		copperGeoreRarity = 140
 		#Biomes that have any of these Biome Dictionary Tags will be able to generate Copper GeOre [Default: OVERWORLD]
 		copperGeoreDictionaryTypes = ["NETHER"]
 
@@ -46,7 +46,7 @@
 		diamondGeoreMaxY = 35
 		#Diamond GeOre Rarity [Default: 330] (The higher the value the rarer)
 		#Range: > 0
-		diamondGeoreRarity = 200
+		diamondGeoreRarity = 180
 		#Biomes that have any of these Biome Dictionary Tags will be able to generate Diamond GeOre [Default: OVERWORLD]
 		diamondGeoreDictionaryTypes = ["NETHER"]
 
@@ -62,7 +62,7 @@
 		emeraldGeoreMaxY = 35
 		#Emerald GeOre Rarity [Default: 420] (The higher the value the rarer)
 		#Range: > 0
-		emeraldGeoreRarity = 200
+		emeraldGeoreRarity = 180
 		#Biomes that have any of these Biome Dictionary Tags will be able to generate Emerald GeOre [Default: OVERWORLD]
 		emeraldGeoreDictionaryTypes = ["NETHER"]
 
@@ -78,7 +78,7 @@
 		goldGeoreMaxY = 35
 		#Gold GeOre Rarity [Default: 180] (The higher the value the rarer)
 		#Range: > 0
-		goldGeoreRarity = 150
+		goldGeoreRarity = 140
 		#Biomes that have any of these Biome Dictionary Tags will be able to generate Gold GeOre [Default: OVERWORLD]
 		goldGeoreDictionaryTypes = ["NETHER"]
 
@@ -94,7 +94,7 @@
 		ironGeoreMaxY = 35
 		#Iron GeOre Rarity [Default: 120] (The higher the value the rarer)
 		#Range: > 0
-		ironGeoreRarity = 100
+		ironGeoreRarity = 120
 		#Biomes that have any of these Biome Dictionary Tags will be able to generate Iron GeOre [Default: OVERWORLD]
 		ironGeoreDictionaryTypes = ["NETHER"]
 
@@ -110,7 +110,7 @@
 		lapisGeoreMaxY = 35
 		#Lapis GeOre Rarity [Default: 210] (The higher the value the rarer)
 		#Range: > 0
-		lapisGeoreRarity = 130
+		lapisGeoreRarity = 150
 		#Biomes that have any of these Biome Dictionary Tags will be able to generate Lapis GeOre [Default: OVERWORLD]
 		lapisGeoreDictionaryTypes = ["NETHER"]
 
@@ -126,7 +126,7 @@
 		quartzGeoreMaxY = 35
 		#Quartz GeOre Rarity [Default: 150] (The higher the value the rarer)
 		#Range: > 0
-		quartzGeoreRarity = 100
+		quartzGeoreRarity = 140
 		#Biomes that have any of these Biome Dictionary Tags will be able to generate Quartz GeOre [Default: OVERWORLD, NETHER]
 		quartzGeoreDictionaryTypes = ["NETHER"]
 
@@ -142,7 +142,7 @@
 		redstoneGeoreMaxY = 35
 		#Redstone GeOre Rarity [Default: 240] (The higher the value the rarer)
 		#Range: > 0
-		redstoneGeoreRarity = 130
+		redstoneGeoreRarity = 150
 		#Biomes that have any of these Biome Dictionary Tags will be able to generate Redstone GeOre [Default: OVERWORLD]
 		redstoneGeoreDictionaryTypes = ["NETHER"]
 

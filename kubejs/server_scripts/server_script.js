@@ -200,6 +200,28 @@ event.shaped('cyclic:crafting_stick', [
     M: '#minecraft:planks'
 })
 
+  function sieve(mesh, chance, input, result, wlog) {
+    event.custom({
+      type: `exnihilosequentia:sieve`,
+      rolls: [{
+        chance: chance,
+        mesh: mesh
+      }],
+      input: Ingredient.of(input).toJson(),
+      result: Item.of(result).toResultJson(),
+      waterlogged: wlog
+    })
+}
+
+  sieve(`flint`, 0.05, 'minecraft:dirt', 'minecraft:spider_eye', null)
+  sieve(`flint`, 0.05, 'minecraft:dirt', 'minecraft:sugar_cane', null)
+  sieve(`flint`, 0.05, 'minecraft:dirt', 'minecraft:slime_ball', null)
+  sieve(`flint`, 0.05, 'minecraft:dirt', 'minecraft:lily_pad', null)
+  sieve(`flntt`, 0.05, 'minecraft:dirt', 'minecraft:vine', null)
+  sieve(`flint`, 0.05, 'minecraft:dirt', 'minecraft:string', null)
+
+
+
 
 
   function fluidItem(fluid, input, result) {
